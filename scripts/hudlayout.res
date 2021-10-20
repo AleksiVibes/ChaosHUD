@@ -8,8 +8,8 @@
 }
 "CustomCrosshair"
 {
-	"labelText"	"#"
-	"font"	"Size: 20"
+	"labelText"	"<"
+	"font"	"Size: 18"
 	"visible"	"0"
 	"enabled"	"0"
 }

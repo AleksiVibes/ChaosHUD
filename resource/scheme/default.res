@@ -7,7 +7,8 @@
 		"LightOrange"										"188 112 0 128"
 		"GoalOrange"										"255 133 0"
 		"TFOrange"											"145 73 59 255"
-		"Purple"											"137 69 99 255"
+		"Purple"											"137 69 175 255"
+		"PurpleDim"											"92  69 111 255"
 		"PurpleGrey"										"35 23 47 255"
 
 		"QuestGold"											"208 147 75 255"
@@ -343,7 +344,7 @@
 		"Slider.TextColor"									"127 140 127 255"
 		"Slider.TrackColor"									"31 31 31 255"
 		"Slider.DisabledTextColor1"							"117 117 117 255"
-		"Slider.DisabledTextColor2"							"30 30 30 255"
+		"Slider.DisabledTextColor2"							"Purple"
 
 		"TextEntry.TextColor"								"Gray"
 		"TextEntry.BgColor"									"Blank"
@@ -3057,7 +3058,185 @@
 				}
 			}
 		}
-
+		
+		GreyBorderTabs
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Purple"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "Purple"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "Purple"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "Purple"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "Purple"
+					"offset" "4 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "Purple"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "Purple"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "Purple"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "Purple"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "Purple"
+					"offset" "4 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "Purple"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "Purple"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "Purple"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "Purple"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "Purple"
+					"offset" "4 1"
+				}
+			}
+		}
+		
+		GreyBorderTabsInactive
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "PurpleDim"
+					"offset" "0 -3"
+				}
+				"2"
+				{
+					"color" "PurpleDim"
+					"offset" "1 -3"
+				}
+				"3"
+				{
+					"color" "PurpleDim"
+					"offset" "2 -3"
+				}
+				"4"
+				{
+					"color" "PurpleDim"
+					"offset" "3 -3"
+				}
+				"5"
+				{
+					"color" "PurpleDim"
+					"offset" "4 -3"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "PurpleDim"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "PurpleDim"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "PurpleDim"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "PurpleDim"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "PurpleDim"
+					"offset" "4 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "PurpleDim"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "PurpleDim"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "PurpleDim"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "PurpleDim"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "PurpleDim"
+					"offset" "4 1"
+				}
+			}
+		}
+		
 		"TeamMenuBorder"
 		{
 			"inset" 										"0 0 0 0"

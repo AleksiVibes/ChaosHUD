@@ -561,6 +561,16 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"Roboto8"
+		{
+			"1"
+			{
+				"name"										"Roboto Light"
+				"tall"										"8"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
 		"Roboto12"
 		{
 			"1"
@@ -598,6 +608,17 @@ Scheme
 				"name"										"Roboto Light"
 				"tall"										"24"
 				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"EquippedLabel"
+		{
+			"1"
+			{
+				"name"										"Roboto Light"
+				"tall"										"8"
+				"weight"									"500"
+				"additive"									"0"
 				"antialias"									"1"
 			}
 		}

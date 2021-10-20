@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 0"
-		"infocus_bgcolor_override"					"46 43 42 0"
-		"outoffocus_bgcolor_override"				"46 43 42 0"
+		"bgcolor_override"							"22 22 22 0"
+		"infocus_bgcolor_override"					"22 22 22 0"
+		"outoffocus_bgcolor_override"				"22 22 22 0"
 
 		"title"										"#CharInfoAndSetup"
 		"title_font"								"HudFontMediumBold"
@@ -54,23 +54,23 @@
 		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"loadout_bottom_gradient"
+		"image"										"loadout_header"
 		"tileImage"									"1"
 	}
 
 	"FooterLine"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"EditablePanel"
 		"fieldName"									"FooterLine"
 		"xpos"										"0"
 		"ypos"										"420"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"10"
+		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"loadout_solid_line"
-		"scaleImage"								"1"
+		"paintbackgroundtype"						"2"
+		"bgcolor_override"							"Purple"
 	}
 
 	"Sheet"
@@ -86,29 +86,33 @@
 
 		"HeaderLine"
 		{
-			"ControlName"							"ImagePanel"
+			"ControlName"							"EditablePanel"
 			"fieldName"								"HeaderLine"
 			"xpos"									"0"
 			"ypos"									"32"
 			"zpos"									"5"
 			"wide"									"f0"
-			"tall"									"10"
+			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
-			"image"									"loadout_solid_line"
-			"scaleImage"							"1"
+			"paintbackgroundtype"						"2"
+			"bgcolor_override"							"Purple"
 		}
 
 		"tabskv"
 		{
-			"textinsetx"							"40"
-			"font"									"HudFontMediumSmallBold"
-			"selectedcolor"							"200 187 161 255"
-			"unselectedcolor"						"130 120 104 255"
-			"defaultBgColor_override"				"46 43 42 255"
-			"paintbackground"						"0"
-			"activeborder_override"					"OutlinedGreyBox"
-			"normalborder_override" 				"OutlinedDullGreyBox"
+			"textinsetx"							"20"
+			"textinsety"							"10"
+			"textalignment"							"north"
+			"font"									"Roboto12"
+			"selectedcolor"							"TanLight"
+			"unselectedcolor"						"TanDark"
+			"defaultBgColor_override"				"22 22 22 255"
+			"paintbackground"						"1"
+			"activeborder_override"					"GreyBorderTabs"
+			"normalborder_override"					"GreyBorderTabsInactive"
+			"unselectedBgColor_override"			"10 10 10 255"
+			"depressedBgColor_override"				"10 10 10 255"
 		}
 	}
 
@@ -127,10 +131,23 @@
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
 		"default"									"0"
 		"Command"									"back"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		// Default Style
+		"defaultBgColor_override"	"35 35 35 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		
+		// Armed Style
+		"armedBgColor_override		"20 20 20 255"
+		"armedFgColor_override		"200 200 200 255"
+		
+		// Depressed Style
+		"depressedBgColor_override"	"20 20 20 255"
+		"depressedFgColor_override"	"200 200 200 255"
 	}
 
 	"CloseButton"
@@ -150,8 +167,21 @@
 		"proportionaltoparent"						"1"
 		"default"									"0"
 		"Command"									"close"
+		"paintbackground"							"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
+		
+		// Default Style
+		"defaultBgColor_override"	"35 35 35 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		
+		// Armed Style
+		"armedBgColor_override		"20 20 20 255"
+		"armedFgColor_override		"200 200 200 255"
+		
+		// Depressed Style
+		"depressedBgColor_override"	"20 20 20 255"
+		"depressedFgColor_override"	"200 200 200 255"
 	}
 
 	"NotificationsPresentPanel"

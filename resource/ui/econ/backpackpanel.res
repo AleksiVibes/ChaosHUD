@@ -402,7 +402,7 @@
 		"text_center"								"1"
 		"model_hide"								"1"
 		"resize_to_text"							"1"
-		"padding_height"							"15"
+		"padding_height"							"0"
 		
 		"attriblabel"
 		{

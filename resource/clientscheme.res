@@ -54,7 +54,7 @@
 		"DimmItemRarityAncient"	"235 75 75 100"
 		"ItemRarityAncient_GreyedOut"	"59 19 19 255"
 		"ItemRarityAncient"	"235 75 75 255"
-		"Crosshair"	"135 57 183 255"
-		"Crosshair Flash" "255 0 0 255"
+		"Crosshair"	"255 255 255 255"
+		"Crosshair Flash"	"255 0 0 255"
 	}
 }
