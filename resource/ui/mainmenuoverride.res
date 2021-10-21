@@ -103,7 +103,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"c-500"//cs-0.5-256
-		"ypos"			"c-400"
+		"ypos"			"c-377"
 		"zpos"			"-53"
 		"wide"			"1000"
 		"tall"			"1000"
@@ -120,8 +120,8 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-45"
-		"ypos"			"c-135"
+		"xpos"			"325"
+		"ypos"			"c-75"
 		"font"			"Roboto16"
 		"zpos"			"-52"
 		"wide"			"200"
@@ -198,14 +198,12 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Version"
-		"xpos"										"29"
-		"ypos"										"50"
+		"xpos"										"355"
+		"ypos"										"80"
 		"zpos"										"15"
 		"wide"										"150"
-		"tall"										"23"
+		"tall"										"33"
 		"visible"									"0"
-
-		"pin_to_sibling" 							"RankPanel"
 
 		"SubButton"
 		{
@@ -214,11 +212,11 @@
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"f0"
-			"tall"									"20"
+			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"font"									"MoonGet32"
+			"font"									"MoonGet48"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"default"								"1"
@@ -229,8 +227,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Menu Labels"
-			"depressedFgColor_override" 			"Menu Labels"
+			"armedFgColor_override" 				"110 70 198 255"
+			"depressedFgColor_override" 			"110 70 198 255"
 		}
 	}
 
@@ -239,7 +237,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Servers"
 		"xpos"										"0"
-		"ypos"										"170"
+		"ypos"										"140"
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
@@ -260,7 +258,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets" 				"1"
-			"font"									"Roboto16"
+			"font"									"BoldFinger16"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"default"								"1"
@@ -271,8 +269,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Menu Labels"
-			"depressedFgColor_override" 			"Menu Labels"
+			"armedFgColor_override" 				"SkyBlueDim"
+			"depressedFgColor_override" 			"SkyBlueDim"
 		}
 	}
 
@@ -302,7 +300,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets" 				"1"
-			"font"									"Roboto16"
+			"font"									"BoldFinger16"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"default"								"1"
@@ -313,8 +311,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Menu Labels"
-			"depressedFgColor_override" 			"Menu Labels"
+			"armedFgColor_override" 				"SkyBlueDim"
+			"depressedFgColor_override" 			"SkyBlueDim"
 		}
 	}
 
@@ -344,7 +342,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets" 				"1"
-			"font"									"Roboto16"
+			"font"									"BoldFinger16"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"default"								"1"
@@ -355,8 +353,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Menu Labels"
-			"depressedFgColor_override" 			"Menu Labels"
+			"armedFgColor_override" 				"SkyBlueDim"
+			"depressedFgColor_override" 			"SkyBlueDim"
 		}
 	}
 
@@ -386,7 +384,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets" 				"1"
-			"font"									"Roboto8"
+			"font"									"BoldFinger8"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"default"								"1"
@@ -397,8 +395,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Menu Labels"
-			"depressedFgColor_override" 			"Menu Labels"
+			"armedFgColor_override" 				"SkyBlueDim"
+			"depressedFgColor_override" 			"SkyBlueDim"
 		}
 	}
 
@@ -428,7 +426,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"use_proportional_insets" 				"1"
-			"font"									"Roboto18"
+			"font"									"BoldFinger18"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"default"								"1"
@@ -439,8 +437,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Menu Labels"
-			"depressedFgColor_override" 			"Menu Labels"
+			"armedFgColor_override" 				"SkyBlueDim"
+			"depressedFgColor_override" 			"SkyBlueDim"
 		}
 	}
 	
@@ -452,8 +450,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Notifications_ShowButtonPanel"
-		"xpos"										"30"
-		"ypos"										"-25"
+		"xpos"										"-25"
+		"ypos"										"20"
 		"zpos"										"15"
 		"wide"										"150"
 		"tall"										"14"
@@ -473,8 +471,8 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets" 				"1"
-			"font"									"Coolvetica15"
-			"labeltext"								"Notification"
+			"font"									"BoldFont16"
+			"labeltext"								"Notification!"
 			"AllCaps"								"1"
 			"textAlignment"							"center"
 			"default"								"1"
@@ -486,9 +484,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultFgColor_override" 				"10 110 202 255"
-			"armedFgColor_override" 				"10 66 131 255"
-			"depressedFgColor_override" 			"10 66 131 255"
+			"defaultFgColor_override" 				"241 194 42 255"
+			"armedFgColor_override" 				"198 157 31 255"
+			"depressedFgColor_override" 			"198 157 31 255"
 		}
 	}
 
@@ -597,6 +595,70 @@
 			}
 		}
 	}
+	
+	//==================================================================================================================================================
+	// FRIENDS LIST
+	//==================================================================================================================================================
+
+	"FriendsContainer"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"FriendsContainer"
+		"xpos"										"325"
+		"ypos"										"345"
+		"zpos"										"11"
+		"wide"										"220"
+		"tall"										"150"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"border"									"FriendsListBorder"
+		"bgcolor_override"							"12 12 12 50"
+
+		"SteamFriendsList"
+		{
+			"ControlName"							"CSteamFriendsListPanel"
+			"fieldname"								"SteamFriendsList"
+			"xpos"									"3"
+			"ypos"									"3"
+			"zpos"									"500"
+			"wide"									"242"
+			"tall"									"150"
+			"visible"								"1"
+			"proportionaltoparent"					"1"
+
+			"columns_count"							"2"
+			"inset_x"								"10"
+			"inset_y"								"5"
+			"row_gap"								"5"
+			"column_gap"							"5"
+			"restrict_width"						"0"
+
+			"friendpanel_kv"
+			{
+				"wide"								"100"
+				"tall"								"20"
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"						"ScrollBar"
+				"FieldName"							"ScrollBar"
+				"xpos"								"0"
+				"ypos"								"0"
+				"tall"								"f0"
+				"wide"								"3"
+				"zpos"								"1000"
+				"nobuttons"							"1"
+				"proportionaltoparent"				"1"
+
+				"Slider"
+				{
+					"fgcolor_override"				"White"
+				}
+			}
+		}
+	}
+
 
 	//==================================================================================================================================================
 	// TOOLTIP PANEL

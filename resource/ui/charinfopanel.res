@@ -17,7 +17,7 @@
 		"outoffocus_bgcolor_override"				"22 22 22 0"
 
 		"title"										"#CharInfoAndSetup"
-		"title_font"								"HudFontMediumBold"
+		"title_font"								"Roboto32"
 		"titletextinsetX"							"40"
 		"titletextinsetY"							"0"
 		"titlebarfgcolor_override"					"200 187 161 255"
@@ -70,7 +70,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"Purple"
+		"bgcolor_override"							"SkyBlue"
 	}
 
 	"Sheet"
@@ -96,7 +96,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"paintbackgroundtype"						"2"
-			"bgcolor_override"							"Purple"
+			"bgcolor_override"							"SkyBlue"
 		}
 
 		"tabskv"

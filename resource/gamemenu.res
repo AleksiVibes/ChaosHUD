@@ -8,11 +8,6 @@
 		"tooltip"		"Version 0.1"
 		"OnlyAtMenu"	"1"
 	}
-	"Console"
-	{
-		"label"			"Console"
-		"command"		"engine toggleconsole"
-	}
 	"Servers"
 	{
 		"label"			"Servers"

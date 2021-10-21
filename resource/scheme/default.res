@@ -10,6 +10,8 @@
 		"Purple"											"137 69 175 255"
 		"PurpleDim"											"92  69 111 255"
 		"PurpleGrey"										"35 23 47 255"
+		"SkyBlue"											"91 188 228 255"
+		"SkyBlueDim"										"67 133 159 255"
 
 		"QuestGold"											"208 147 75 255"
 		"HalloweenThemeColor2015_Light"						"238 126 17 255"
@@ -3066,27 +3068,27 @@
 			{
 				"1"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "4 1"
 				}
 			}
@@ -3094,27 +3096,27 @@
 			{
 				"1"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "4 1"
 				}
 			}
@@ -3122,27 +3124,27 @@
 			{
 				"1"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Purple"
+					"color" "SkyBlue"
 					"offset" "4 1"
 				}
 			}
@@ -3155,27 +3157,27 @@
 			{
 				"1"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "0 -3"
 				}
 				"2"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "1 -3"
 				}
 				"3"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "2 -3"
 				}
 				"4"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "3 -3"
 				}
 				"5"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "4 -3"
 				}
 			}
@@ -3183,27 +3185,27 @@
 			{
 				"1"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "4 1"
 				}
 			}
@@ -3211,27 +3213,116 @@
 			{
 				"1"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "PurpleDim"
+					"color" "SkyBlueDim"
+					"offset" "4 1"
+				}
+			}
+		}
+		
+		FriendsListBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "34 85 123 50"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "34 85 123 50"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "34 85 123 50"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "34 85 123 50"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "34 85 123 50"
+					"offset" "4 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "34 85 123 50"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "34 85 123 50"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "34 85 123 50"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "34 85 123 50"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "34 85 123 50"
+					"offset" "4 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "34 85 123 50"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "34 85 123 50"
+					"offset" "1 1"
+				}
+				"3"
+				{
+					"color" "34 85 123 50"
+					"offset" "2 1"
+				}
+				"4"
+				{
+					"color" "34 85 123 50"
+					"offset" "3 1"
+				}
+				"5"
+				{
+					"color" "34 85 123 50"
 					"offset" "4 1"
 				}
 			}

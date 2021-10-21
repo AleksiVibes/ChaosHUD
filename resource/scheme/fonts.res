@@ -681,6 +681,46 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"MoonGet48"
+		{
+			"1"
+			{
+				"name"										"MOON GET! Heavy"
+				"tall"										"48"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Boldfinger8"
+		{
+			"1"
+			{
+				"name"										"Boldfinger"
+				"tall"										"8"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Boldfinger16"
+		{
+			"1"
+			{
+				"name"										"Boldfinger"
+				"tall"										"16"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"Boldfinger18"
+		{
+			"1"
+			{
+				"name"										"Boldfinger"
+				"tall"										"18"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
 		"EquippedLabel"
 		{
 			"1"
@@ -689,6 +729,56 @@ Scheme
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+		"BoldFont8"
+		{
+			"1"
+			{
+				"name"										"The Bold Font"
+				"tall"										"8"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"BoldFont12"
+		{
+			"1"
+			{
+				"name"										"The Bold Font"
+				"tall"										"12"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"BoldFont16"
+		{
+			"1"
+			{
+				"name"										"The Bold Font"
+				"tall"										"16"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"BoldFont18"
+		{
+			"1"
+			{
+				"name"										"The Bold Font"
+				"tall"										"18"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"BoldFont24"
+		{
+			"1"
+			{
+				"name"										"The Bold Font"
+				"tall"										"24"
+				"weight"									"0"
 				"antialias"									"1"
 			}
 		}
@@ -744,6 +834,16 @@ Scheme
 		{
 			"font"		"resource/scheme/fonts/moon_get_heavy.ttf"
 			"name"		"MOON GET! Heavy"
+		}
+		"17"
+		{
+			"font"		"resource/scheme/fonts/boldfinger.ttf"
+			"name"		"Boldfinger"
+		}
+		"18"
+		{
+			"font"		"resource/scheme/fonts/theboldfont.ttf"
+			"name"		"The Bold Font"
 		}
 	}
 }
