@@ -5,7 +5,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ModelContainer"
 		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
+		"ypos"										"-145"
 		"zpos"										"3"
 		"wide"										"f0"
 		"tall"										"f0"
@@ -191,6 +191,8 @@
 		"visible"									"1"
 		"PaintBackgroundType"						"2"
 		"proportionaltoparent"						"1"
+		
+		"bgcolor"									"0 0 0 255"
 
 		if_mini
 		{
@@ -363,7 +365,7 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"StatsContainer"
-			"xpos"									"-1"
+			"xpos"									"0"
 			"ypos"									"29"
 			"wide"									"f0"
 			"tall"									"480"
@@ -383,9 +385,10 @@
 				"fieldName"							"XPBar"
 				"xpos"								"0"
 				"ypos"								"0"
-				"wide"								"120"
+				"wide"								"100"
 				"tall"								"20"
 				"proportionaltoparent"				"1"
+				"visible"							"0"
 
 				if_mini
 				{
@@ -400,7 +403,7 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"CurrentXPLabel"
 					"xpos"							"0"
-					"ypos"							"rs1"
+					"ypos"							"rs0"
 					"zpos"							"0"
 					"wide"							"0"
 					"tall"							"20"

@@ -611,6 +611,76 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"Roboto32"
+		{
+			"1"
+			{
+				"name"										"Roboto Light"
+				"tall"										"32"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"MoonGet8"
+		{
+			"1"
+			{
+				"name"										"MOON GET! Heavy"
+				"tall"										"8"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"MoonGet12"
+		{
+			"1"
+			{
+				"name"										"MOON GET! Heavy"
+				"tall"										"12"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"MoonGet16"
+		{
+			"1"
+			{
+				"name"										"MOON GET! Heavy"
+				"tall"										"16"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"MoonGet18"
+		{
+			"1"
+			{
+				"name"										"MOON GET! Heavy"
+				"tall"										"18"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"MoonGet24"
+		{
+			"1"
+			{
+				"name"										"MOON GET! Heavy"
+				"tall"										"24"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+		"MoonGet32"
+		{
+			"1"
+			{
+				"name"										"MOON GET! Heavy"
+				"tall"										"32"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
 		"EquippedLabel"
 		{
 			"1"
@@ -669,6 +739,11 @@ Scheme
 		{
 			"font"		"resource/scheme/fonts/roboto-light.ttf"
 			"name"		"Roboto Light"
+		}
+		"16"
+		{
+			"font"		"resource/scheme/fonts/moon_get_heavy.ttf"
+			"name"		"MOON GET! Heavy"
 		}
 	}
 }
