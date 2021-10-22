@@ -551,12 +551,12 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Poetsen24"
+		"Poetsen32"
 		{
 			"1"
 			{
 				"name"										"Poetsen One"
-				"tall"										"24"
+				"tall"										"32"
 				"weight"									"0"
 				"antialias"									"1"
 			}

@@ -130,14 +130,14 @@
 		"PositiveColor"								"0 255 0 255"
 		"NegativeColor"								"255 0 0 255"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"m0refont11"
+		"delta_item_font"							"Roboto12"
 		"proportionaltoparent"						"1"
 
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"m0refont16"
+			"font"									"Roboto16"
 			"fgcolor"								"White"
 			"xpos"									"cs-0.5"
 			"ypos"									"-2"

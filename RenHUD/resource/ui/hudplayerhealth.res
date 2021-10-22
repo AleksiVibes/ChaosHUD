@@ -71,7 +71,7 @@
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"
-		"font"                   				 	"HP"
+		"font"                   				 	"MoonGet48"
 		"fgcolor"	    	         				"Health Numbers"
 
 		"pin_to_sibling"							"HealthAnchor"
@@ -91,7 +91,7 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
-		"font"                   				 	"HP"
+		"font"                   				 	"MoonGet48"
 		"fgcolor"	     	         				"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValue"

@@ -17,7 +17,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
-		"xpos"										"3"
+		"xpos"										"85"
 		"ypos"										"rs1-1"
 		"zpos"										"2"
 		"wide"										"f0"
@@ -26,7 +26,7 @@
 		"enabled"									"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"m0refont18"
+		"font"										"MoonGet18"
 		"fgcolor"									"White"
 	}
 	"ItemEffectMeterCountShadow"
@@ -42,7 +42,7 @@
 		"enabled"									"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"m0refont18"
+		"font"										"MoonGet18"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
