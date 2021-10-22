@@ -196,22 +196,4 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
-	"ReloadSchemeButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ReloadSchemeButton"
-		"xpos"										"rs1-5"
-		"ypos"										"35"
-		"zpos"										"250"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"RS"
-		"font"										"Default"
-		"textAlignment"								"center"
-		"Command"									"reloadscheme"
-	}
 }

@@ -219,18 +219,18 @@
 		"Econ.Button.PresetArmedColorFg"					"TanLight"
 		"Econ.Button.PresetDepressedColorFg"				"TanLight"
 
-		"Econ.Button.PresetDefaultColorBg"					"LighterRed"
-		"Econ.Button.PresetArmedColorBg"					"LightRed"
-		"Econ.Button.PresetDepressedColorBg"				"TFOrange"
+		"Econ.Button.PresetDefaultColorBg"					"48 48 48 255"
+		"Econ.Button.PresetArmedColorBg"					"SkyBlueDim"
+		"Econ.Button.PresetDepressedColorBg"				"SkyBlueDim"
 
 		"Border.Bright"										"Blank"
 		"Border.Dark"										"Black"
 		"Border.Selection"									"Gray"
 
 		"Button.TextColor"									"TanLight"
-		"Button.BgColor"									"TanDark"
+		"Button.BgColor"									"35 35 35 255"
 		"Button.ArmedTextColor"								"TanLight"
-		"Button.ArmedBgColor"								"TFOrange"
+		"Button.ArmedBgColor"								"SkyBlueDim"
 		"Button.SelectedTextColor"							"TanLight"
 		"Button.SelectedBgColor"							"TFOrange"
 		"Button.DepressedTextColor"							"Black"
@@ -3792,888 +3792,892 @@
 			"draw_corner_height" 							"11"
 		}
 
-		"EconItemBorder"
+		EconItemBorder
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-
-			"image"											"loadout_rect"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"55 55 55 255"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		Econ.Button.Border.Default
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
+		}
+		Econ.Button.Border.Armed
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
 		}
 
-		"Econ.Button.Border.Default"
+		LoadoutItemMouseOverBorder
 		{
-			"inset" 										"0 0 0 0"
-			"backgroundtype" 								"2"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"45 45 45 255"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-
-		"Econ.Button.Border.Armed"
+		LoadoutItemPopupBorder
 		{
-			"inset" 										"0 0 0 0"
-			"backgroundtype" 								"2"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"35 35 35 255"
+			
+			"image"					"replay/thumbnails/white"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-
-		"LoadoutItemMouseOverBorder"
+		
+		BackpackItemGrayedOut
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-
-			"image"											"loadout_rect_mouseover"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"Black"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-
-		"LoadoutItemPopupBorder"
+		
+		BackpackItemGrayedOut_Selected
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-
-			"image"											"button_holder_central"
-			"src_corner_height"								"32"
-			"src_corner_width"								"32"
-			"draw_corner_width"								"4"
-			"draw_corner_height" 							"4"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"Black"
+			
+			"image"					"backpack_rect_selected"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-
-		"BackpackItemGrayedOut"
-		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"Black"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"11"
-			"draw_corner_height" 							"11"
-		}
-
-		"BackpackItemGrayedOut_Selected"
-		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"Black"
-
-			"image"											"backpack_rect_selected"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"11"
-			"draw_corner_height" 							"11"
-		}
-
+		
 		// Standard ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder"
+		BackpackItemBorder
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-
-			"image"											"backpack_rect"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"11"
-			"draw_corner_height" 							"11"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"55 55 55 255"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder"
+		BackpackItemMouseOverBorder
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-
-			"image"											"backpack_rect_mouseover"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"11"
-			"draw_corner_height" 							"11"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"65 65 65 255"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemSelectedBorder"
+		BackpackItemSelectedBorder
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-
-			"image"											"backpack_rect_selected"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"11"
-			"draw_corner_height" 							"11"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"75 75 75 255"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder"
+		BackpackItemGreyedOutBorder
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"Black"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"11"
-			"draw_corner_height" 							"11"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"Black"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder"
+		BackpackItemGreyedOutSelectedBorder
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"Black"
-
-			"image"											"backpack_rect_selected"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"11"
-			"draw_corner_height" 							"11"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"Black"
+			
+			"image"					"backpack_rect_selected"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-
+		
 		// Unique ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Unique"
+		BackpackItemBorder_Unique
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorUnique"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorUnique"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Unique"
+		BackpackItemMouseOverBorder_Unique
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorUnique"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorUnique"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Unique"
+		BackpackItemGreyedOutBorder_Unique
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorUnique_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorUnique_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Unique"
+		BackpackItemGreyedOutSelectedBorder_Unique
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorUnique_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorUnique_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Rarity1 ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_1"
+		BackpackItemBorder_1
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity1"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity1"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_1"
+		BackpackItemMouseOverBorder_1
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity1"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity1"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_1"
+		BackpackItemGreyedOutBorder_1
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity1_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity1_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_1"
+		BackpackItemGreyedOutSelectedBorder_1
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity1_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity1_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Rarity2 ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_2"
+		BackpackItemBorder_2
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity2"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity2"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_2"
+		BackpackItemMouseOverBorder_2
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity2"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity2"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_2"
+		BackpackItemGreyedOutBorder_2
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity2_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity2_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_2"
+		BackpackItemGreyedOutSelectedBorder_2
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity2_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity2_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Rarity3 ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_3"
+		BackpackItemBorder_3
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity3"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity3"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_3"
+		BackpackItemMouseOverBorder_3
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity3"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity3"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_3"
+		BackpackItemGreyedOutBorder_3
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity3_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity3_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_3"
+		BackpackItemGreyedOutSelectedBorder_3
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity3_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity3_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Rarity4 ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_4"
+		BackpackItemBorder_4
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity4"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity4"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_4"
+		BackpackItemMouseOverBorder_4
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity4"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity4"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_4"
+		BackpackItemGreyedOutBorder_4
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity4_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity4_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_4"
+		BackpackItemGreyedOutSelectedBorder_4
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorrarity4_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorrarity4_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Haunted ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Haunted"
+		BackpackItemBorder_Haunted
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorHaunted"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorHaunted"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Haunted"
+		BackpackItemMouseOverBorder_Haunted
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorHaunted"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorHaunted"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Haunted"
+		BackpackItemGreyedOutBorder_Haunted
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorHaunted_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorHaunted_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Haunted"
+		BackpackItemGreyedOutSelectedBorder_Haunted
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorHaunted_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorHaunted_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// PaintkitWeapon ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_PaintkitWeapon"
+		BackpackItemBorder_PaintkitWeapon
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorPaintkitWeapon"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorPaintkitWeapon"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_PaintkitWeapon"
+		BackpackItemMouseOverBorder_PaintkitWeapon
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorPaintkitWeapon"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorPaintkitWeapon"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_PaintkitWeapon"
+		BackpackItemGreyedOutBorder_PaintkitWeapon
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorPaintkitWeapon_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorPaintkitWeapon_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_PaintkitWeapon"
+		BackpackItemGreyedOutSelectedBorder_PaintkitWeapon
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorPaintkitWeaponGreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorPaintkitWeaponGreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-
+		
 		// Collector's ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Collectors"
+		BackpackItemBorder_Collectors
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCollectors"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCollectors"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Collectors"
+		BackpackItemMouseOverBorder_Collectors
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCollectors"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCollectors"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Collectors"
+		BackpackItemGreyedOutBorder_Collectors
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCollectors_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCollectors_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Collectors"
+		BackpackItemGreyedOutSelectedBorder_Collectors
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCollectors_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCollectors_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Vintage ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Vintage"
+		BackpackItemBorder_Vintage
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorVintage"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorVintage"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Vintage"
+		BackpackItemMouseOverBorder_Vintage
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorVintage"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorVintage"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Vintage"
+		BackpackItemGreyedOutBorder_Vintage
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorVintage_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorVintage_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Vintage"
+		BackpackItemGreyedOutSelectedBorder_Vintage
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorVintage_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorVintage_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Community ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Community"
+		BackpackItemBorder_Community
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCommunity"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCommunity"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Community"
+		BackpackItemMouseOverBorder_Community
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCommunity"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCommunity"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Community"
+		BackpackItemGreyedOutBorder_Community
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCommunity_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCommunity_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Community"
+		BackpackItemGreyedOutSelectedBorder_Community
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCommunity_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCommunity_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Developer ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Developer"
+		BackpackItemBorder_Developer
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorDeveloper"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorDeveloper"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Developer"
+		BackpackItemMouseOverBorder_Developer
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorDeveloper"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorDeveloper"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Developer"
+		BackpackItemGreyedOutBorder_Developer
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorDeveloper_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorDeveloper_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Developer"
+		BackpackItemGreyedOutSelectedBorder_Developer
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorDeveloper_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorDeveloper_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// SelfMade ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_SelfMade"
+		BackpackItemBorder_SelfMade
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorSelfMade"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorSelfMade"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_SelfMade"
+		BackpackItemMouseOverBorder_SelfMade
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorSelfMade"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorSelfMade"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_SelfMade"
+		BackpackItemGreyedOutBorder_SelfMade
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorSelfMade_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorSelfMade_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_SelfMade"
+		BackpackItemGreyedOutSelectedBorder_SelfMade
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorSelfMade_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorSelfMade_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Customized ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Customized"
+		BackpackItemBorder_Customized
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCustomized"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCustomized"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Customized"
+		BackpackItemMouseOverBorder_Customized
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCustomized"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCustomized"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Customized"
+		BackpackItemGreyedOutBorder_Customized
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCustomized_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCustomized_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Customized"
+		BackpackItemGreyedOutSelectedBorder_Customized
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCustomized_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCustomized_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Strange ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Strange"
+		BackpackItemBorder_Strange
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorStrange"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorStrange"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Strange"
+		BackpackItemMouseOverBorder_Strange
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorStrange"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorStrange"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Strange"
+		BackpackItemGreyedOutBorder_Strange
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorStrange_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorStrange_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Strange"
+		BackpackItemGreyedOutSelectedBorder_Strange
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorStrange_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorStrange_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		// Completed ------------------------------------------------------------------------------------------------
-		"BackpackItemBorder_Completed"
+		BackpackItemBorder_Completed
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCompleted"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCompleted"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemMouseOverBorder_Completed"
+		BackpackItemMouseOverBorder_Completed
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCompleted"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCompleted"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutBorder_Completed"
+		BackpackItemGreyedOutBorder_Completed
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCompleted_GreyedOut"
-
-			"image"											"backpack_rect_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCompleted_GreyedOut"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
-		"BackpackItemGreyedOutSelectedBorder_Completed"
+		BackpackItemGreyedOutSelectedBorder_Completed
 		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"2"
-			"color"											"QualityColorCompleted_GreyedOut"
-
-			"image"											"backpack_rect_mouseover_color"
-			"src_corner_height"								"24"
-			"src_corner_width"								"24"
-			"draw_corner_width"								"5"
-			"draw_corner_height" 							"5"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"QualityColorCompleted_GreyedOut"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
+
 		// ***************************************************************************
 		// Rarity Default
 		"BackpackItemBorder_RarityDefault"
