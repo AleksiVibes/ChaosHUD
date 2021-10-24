@@ -236,7 +236,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Servers"
-		"xpos"										"0"
+		"xpos"										"-5"
 		"ypos"										"140"
 		"zpos"										"15"
 		"wide"										"150"
