@@ -102,9 +102,9 @@
 		"tabskv"
 		{
 			"textinsetx"							"20"
-			"textinsety"							"10"
+			"textinsety"							"5"
 			"textalignment"							"north"
-			"font"									"Roboto12"
+			"font"									"BoldFont16"
 			"selectedcolor"							"TanLight"
 			"unselectedcolor"						"TanDark"
 			"defaultBgColor_override"				"22 22 22 255"

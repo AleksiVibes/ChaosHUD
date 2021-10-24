@@ -7,8 +7,10 @@
 		"White"												"255 255 255 255"
 		"OffWhite"											"200 200 200 255"
 		"DullWhite"											"142 142 142 255"
+		"Grey"												"55 55 55 255"
 
-		"Black"												"10 10 10 255"
+		"Black"												"20 20 20 255"
+		"LightBlack"										"35 35 35 255"
 		"Blank"												"0 0 0 0"
 
 		"TransparentBlack"									"20 20 20 210"
@@ -21,22 +23,22 @@
 
 	"BaseSettings"
 	{
-		Border.Bright										"Blank"
-		Border.Dark											"Blank"
-		Border.Selection									"Blank"
+		Border.Bright										"Grey"
+		Border.Dark											"Grey"
+		Border.Selection									"Black"
 		Border.DarkSolid									"Black"
 
 		Button.TextColor									"White"
-		Button.BgColor										"TransparentBlack"
+		Button.BgColor										"Black"
 		Button.ArmedTextColor								"White"
 		Button.ArmedBgColor									"MainTheme"
 		Button.DepressedTextColor							"White"
 		Button.DepressedBgColor								"Blank"
-		Button.FocusBorderColor								"White"
+		Button.FocusBorderColor								"Black"
 
 		CheckButton.TextColor								"OffWhite"
 		CheckButton.SelectedTextColor						"White"
-		CheckButton.BgColor									"TransparentBlack"
+		CheckButton.BgColor									"Black"
 		CheckButton.HighlightFgColor						"MainTheme"
 		CheckButton.ArmedBgColor							"Blank"
 		CheckButton.DepressedBgColor						"Blank"
@@ -56,8 +58,8 @@
 		RadioButton.SelectedTextColor						"White"
 		RadioButton.ArmedTextColor							"DullWhite"
 
-		Frame.BgColor										"LightTransparentBlack"
-		Frame.OutOfFocusBgColor								"LightTransparentBlackInactive"
+		Frame.BgColor										"Black"
+		Frame.OutOfFocusBgColor								"LightBlack"
 		FrameGrip.Color1									"65 65 65 255"
 		FrameGrip.Color2									"0 0 0 0"
 		FrameTitleButton.FgColor							"200 200 200 196"
@@ -74,9 +76,9 @@
 		Label.DisabledFgColor2								"30 30 30 255"
 
 		ListPanel.TextColor									"OffWhite"
-		ListPanel.BgColor									"TransparentBlack"
+		ListPanel.BgColor									"Black"
 		ListPanel.SelectedBgColor							"MainTheme"
-		ListPanel.SelectedOutOfFocusBgColor					"TransparentBlackIanctive"
+		ListPanel.SelectedOutOfFocusBgColor					"Black"
 
 		MainMenu.TextColor									"White"
 		MainMenu.ArmedTextColor								"MainTheme"

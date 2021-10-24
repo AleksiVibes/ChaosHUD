@@ -364,7 +364,7 @@
 		"zpos"										"1"
 		"wide"										"250"
 		"tall"										"25"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#TF_ClassLoadoutTauntInputHint"
 		"textAlignment"								"east"

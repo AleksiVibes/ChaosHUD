@@ -691,6 +691,16 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"MoonGet64"
+		{
+			"1"
+			{
+				"name"										"MOON GET! Heavy"
+				"tall"										"64"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
 		"Boldfinger8"
 		{
 			"1"

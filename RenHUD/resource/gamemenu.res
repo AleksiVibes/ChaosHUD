@@ -3,9 +3,18 @@
 	"Version"
 	{
 		"label"			"RenHud"
-		"command"		"engine showconsole;clear;echo RenHud;
-						echo Made by aLeX (lx.) from Hypnotize's m0rehud"
-		"tooltip"		"Version 0.1"
+		"command"		"engine con_enable 1;showconsole;clear;
+                        echo ==========================================;
+						echo ------------------------------------------;
+                        echo --------------- | RenHUD | ---------------;
+                        echo ----------- | Created by aLeX | ----------;
+                        echo ------------------------------------------;
+                        echo ------------------------------------------;
+                        echo -------- | discord.gg/dJyzaqamrM | -------;
+						echo ---------- | Join the discord! | ---------;
+						echo ------------------------------------------;
+						echo =========================================="
+		"tooltip"		"Version 0.2"
 		"OnlyAtMenu"	"1"
 	}
 	"Servers"
