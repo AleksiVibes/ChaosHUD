@@ -71,17 +71,11 @@
 		"fieldName"		"TextLabel"
 		"fgcolor"		"tanlight60"
 		"fgcolor_override" "tanlight60"
-		"if_high_priority"
-		{
-			"fgcolor"			"tanlight60"
-			"fgcolor_override"	"tanlight60"
-			"font"				"product8"
-		}
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"25"
+		"ypos"			"-2"
 		"zpos"			"2"
 		"wide"			"138"
-		"tall"			"38"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -89,6 +83,6 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"product8"
+		"font"			"product12"
 	}
 }

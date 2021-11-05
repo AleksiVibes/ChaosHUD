@@ -328,7 +328,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"product8"
+			"font"			"product12"
 			"labelText"		"%notititle%"
 			"textAlignment"	"center"
 			"xpos"			"6"

@@ -185,18 +185,18 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DeclineButton"
-		"xpos"			"6"
-		"ypos"			"r26"
+		"xpos"			"-30"
+		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"20"
+		"wide"			"10"
 		"proportionaltoparent"			"1"
-		"tall"			"20"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		"DECLINE"
+		"labeltext"		"X"
 		"font"			"product8"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -206,26 +206,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"decline"
 
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
+		"border_default"	"MainMenuMiniButtonDefault"
+		"border_armed"		"MainMenuMiniButtonArmed"
 		"paintbackground"	"1"
+
+		"pin_to_sibling"	"TriggerButton"
 
 
 		"image_drawcolor"	"238 54 36 255"
 		"image_armedcolor"	"200 80 60 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"2"
-			"ypos"			"2"
-			"zpos"			"1"
-			"wide"			"0"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_close_X"
-			"scaleImage"	"1"
-		}
 	}
 }

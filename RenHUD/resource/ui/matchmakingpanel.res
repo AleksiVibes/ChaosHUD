@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"noborder"
+		"border"		"MainMenuBGBorder"
 
 		"ModeBackgroundImage"
 		{
@@ -52,7 +52,7 @@
 			"ypos"			"30"
 			"zpos"			"50"
 			"wide"			"p0.987"
-			"tall"			"0"
+			"tall"			"1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
