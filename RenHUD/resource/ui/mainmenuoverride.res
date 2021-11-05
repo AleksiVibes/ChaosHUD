@@ -245,7 +245,7 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 
-			"defaultfgcolor_override"				"205 152 40 255"
+			"defaultfgcolor_override"				"225 232 29 255"
 			"armedfgcolor_override"					"170 127 37 255"
 			"depressedfgcolor_override"				"170 127 37 255"
 		}
