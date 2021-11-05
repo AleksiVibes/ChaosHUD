@@ -11,8 +11,8 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"nüWhite"
-		"fgcolor_override"		"nüWhite"
+		"fgcolor"		"tanlight120"
+		"fgcolor_override"		"tanlight120"
 	}
 
 	"AvatarBGPanel"
@@ -22,11 +22,11 @@
 		"xpos"			"7"
 		"ypos"			"7"
 		"zpos"			"-1"
-		"wide"			"36"
+		"wide"			"0"
 		"tall"			"36"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"nüBlack"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"117 107 94 255"
 	}
 	"AvatarImage"
 	{
@@ -35,7 +35,7 @@
 		"xpos"			"9"
 		"ypos"			"9"
 		"zpos"			"0"
-		"wide"			"32"
+		"wide"			"0"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
@@ -48,12 +48,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
-		"fgcolor"		"nüWhite"
-		"fgcolor_override" "nüWhite"
+		"fgcolor"		"56 47 29 255"
+		"fgcolor_override" "56 47 29 255"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"0"
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -69,16 +69,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"nüWhite"
-		"fgcolor_override" "nüWhite"
+		"fgcolor"		"tanlight60"
+		"fgcolor_override" "tanlight60"
 		"if_high_priority"
 		{
-			"fgcolor"			"BrightYellow"
-			"fgcolor_override"	"BrightYellow"
-			"font"				"StorePromotionsTitle"
+			"fgcolor"			"tanlight60"
+			"fgcolor_override"	"tanlight60"
+			"font"				"product8"
 		}
-		"xpos"			"2"
-		"ypos"			"12"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"138"
 		"tall"			"38"
@@ -89,6 +89,6 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"HudFontSmallestBold"
+		"font"			"product8"
 	}
 }

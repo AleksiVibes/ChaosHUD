@@ -25,7 +25,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
-		"xpos"										"c-175"
+		"xpos"										"c-100"
 		"ypos"										"c95"
 		"zpos"										"0"
 		"wide"										"2"
@@ -50,7 +50,6 @@
 		"tall"			         				 	"66"
 		"visible"		         				 	"0"
 		"enabled"		         				 	"1"
-		"image"			         				 	"../hud/health_over_bg"
 		"scaleImage"	         				 	"1"
 	}
 
@@ -71,7 +70,7 @@
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"
-		"font"                   				 	"MoonGet48"
+		"font"                   				 	"product48"
 		"fgcolor"	    	         				"Health Numbers"
 
 		"pin_to_sibling"							"HealthAnchor"
@@ -91,7 +90,7 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
-		"font"                   				 	"MoonGet48"
+		"font"                   				 	"product48"
 		"fgcolor"	     	         				"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValue"
@@ -109,7 +108,7 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
-		"font"                   				 	"HP"
+		"font"                   				 	"product48"
 		"fgcolor"	     	         				"Extra Shadow"
 		"alpha"	     	         					"0"
 

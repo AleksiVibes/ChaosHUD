@@ -2,858 +2,649 @@ Scheme
 {
 	Fonts
 	{
-		"m0refont9"
+		// BEBAS NEUE
+		"Bebas8"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"9"
+				"name"										"Bebas Neue Regular"
+				"tall"										"8"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"m0refont10"
+		"Bebas12"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont11"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"11"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont11Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"11"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont12"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
+				"name"										"Bebas Neue Regular"
 				"tall"										"12"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"m0refont12Shadow"
+		"Bebas16"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont14"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont16"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
+				"name"										"Bebas Neue Regular"
 				"tall"										"16"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"m0refont16Shadow"
+		"Bebas18"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont18"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
+				"name"										"Bebas Neue Regular"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"m0refont18Shadow"
+		"Bebas24"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont18Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"m0refont18Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"m0refont20"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont24"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
+				"name"										"Bebas Neue Regular"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"m0refont24Shadow"
+		"Bebas32"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont24Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"m0refont24Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"m0refont26"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"26"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont30"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont30Outline"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"m0refont30Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"m0refont32"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
+				"name"										"Bebas Neue Regular"
 				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"m0refont32Shadow"
+		"Bebas48"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"32"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0refont36"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"m0refont48"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
+				"name"										"Bebas Neue Regular"
 				"tall"										"48"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"m0refont72"
+
+		// BIG NOODLE TITLING
+		"NoodleTitling8"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"72"
+				"name"										"BigNoodleTitling"
+				"tall"										"8"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
-		"m0reSymbols"
+		"NoodleTitling12"
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V3"
+				"name"										"BigNoodleTitling"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"NoodleTitling16"
+		{
+			"1"
+			{
+				"name"										"BigNoodleTitling"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"NoodleTitling18"
+		{
+			"1"
+			{
+				"name"										"BigNoodleTitling"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
-		"Coolvetica11"
+		"NoodleTitling24"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"11"
+				"name"										"BigNoodleTitling"
+				"tall"										"24"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"Coolvetica13"
+		"NoodleTitling32"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"13"
+				"name"										"BigNoodleTitling"
+				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"Coolvetica15"
+		"NoodleTitling48"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
-				"tall"										"15"
+				"name"										"BigNoodleTitling"
+				"tall"										"48"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
-		"VerdanaMenu"										//Only Used For Create Server Button
+
+		// MURO
+		"Muro8"
 		{
 			"1"
 			{
-				"name"										"Verdana"
+				"name"										"Muro"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro10"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro12"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro16"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro18"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro24"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro28"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro30"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro32"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro40"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"40"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Muro48"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+
+		// CODE
+		"Code8"
+		{
+			"1"
+			{
+				"name"										"Code-Bold"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Code12"
+		{
+			"1"
+			{
+				"name"										"Code-Bold"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Code14"
+		{
+			"1"
+			{
+				"name"										"Code-Bold"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Code16"
+		{
+			"1"
+			{
+				"name"										"Code-Bold"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Code18"
+		{
+			"1"
+			{
+				"name"										"Code-Bold"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Code24"
+		{
+			"1"
+			{
+				"name"										"Code-Bold"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Code32"
+		{
+			"1"
+			{
+				"name"										"Code-Bold"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Code48"
+		{
+			"1"
+			{
+				"name"										"Code-Bold"
+				"tall"										"48"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+
+		// ICONS
+		"Icons8"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Icons12"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Icons16"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Icons18"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Icons24"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Icons28"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Icons32"
+		{
+			"1"
+			{
+				"name"										"TF2 Icons"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Symbols8"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons HEx5"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Symbols12"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons HEx5"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Symbols14"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons HEx5"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Symbols16"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons HEx5"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Symbols18"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons HEx5"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Symbols24"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons HEx5"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Symbols28"
+		{
+			"1"
+			{
+				"name"										"Hypnotize Icons HEx5"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0reicons8"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons v3"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0reicons12"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons v3"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0reicons16"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons v3"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0reicons18"
+		{
+			"1"
+			{
+				"name"										"m0rehud Icons v3"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
 
-		"VerdanaSmallest"
+		// PRODUCT SANS
+		"product8"
 		{
 			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"6"
+				"name"										"Product Sans"
+				"tall"										"8"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
-		
-		"BlocksSharp64"
+		"product10"
 		{
 			"1"
 			{
-				"name"										"Blocks"
-				"tall"										"64"
+				"name"										"Product Sans"
+				"tall"										"10"
 				"additive"									"0"
-				"antialias" 								"0"
-			}
-		}
-		
-		"Default"
-		{
-			"1"
-			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"14"
-				"weight"									"0"
-				"antialias" 								"1"
-			}
-			"2"
-			{
-				"name"		 								"Surface-Medium"
-				"tall"      								"18"
-				"weight"									"0"
-				"antialias" 								"1"
-			}
-			"3"
-			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"22"
-				"weight"									"0"
-				"antialias" 								"1"
-			}
-			"4"
-			{
-				"name"		  								"Surface-Medium"
-				"tall"      								"24"
-				"weight"									"0"
-				"antialias" 								"1"
-			}
-			"5"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"weight"									"0"
 				"antialias" 								"1"
 			}
 		}
-		"CloseCaption_Italic"
+		"product12"
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"weight"									"0"
-				"italic"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"weight"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"weight"									"0"
-				"italic"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"CloseCaption_Small"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"16"
-				"weight"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"Shadow12"
-		{
-			"1"
-			{
-				"name"										"ShadowHill-Regular"
+				"name"										"Product Sans"
 				"tall"										"12"
-				"weight"									"0"
-				"antialias"									"1"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
-		"Shadow16"
+		"product16"
 		{
 			"1"
 			{
-				"name"										"ShadowHill-Regular"
+				"name"										"Product Sans"
 				"tall"										"16"
-				"weight"									"0"
-				"antialias"									"1"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
-		"Shadow18"
+		"product18"
 		{
 			"1"
 			{
-				"name"										"ShadowHill-Regular"
+				"name"										"Product Sans"
 				"tall"										"18"
-				"weight"									"0"
-				"antialias"									"1"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
-		"Shadow24"
+		"product24"
 		{
 			"1"
 			{
-				"name"										"ShadowHill-Regular"
+				"name"										"Product Sans"
 				"tall"										"24"
-				"weight"									"0"
-				"antialias"									"1"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
-		"Shadow72"
+		"product32"
 		{
 			"1"
 			{
-				"name"										"ShadowHill-Regular"
-				"tall"										"72"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Poetsen8"
-		{
-			"1"
-			{
-				"name"										"Poetsen One"
-				"tall"										"8"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Poetsen12"
-		{
-			"1"
-			{
-				"name"										"Poetsen One"
-				"tall"										"12"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Poetsen16"
-		{
-			"1"
-			{
-				"name"										"Poetsen One"
-				"tall"										"16"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Poetsen18"
-		{
-			"1"
-			{
-				"name"										"Poetsen One"
-				"tall"										"18"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Poetsen24"
-		{
-			"1"
-			{
-				"name"										"Poetsen One"
-				"tall"										"24"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Poetsen32"
-		{
-			"1"
-			{
-				"name"										"Poetsen One"
+				"name"										"Product Sans"
 				"tall"										"32"
-				"weight"									"0"
-				"antialias"									"1"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
-		"Roboto8"
+		"product48"
 		{
 			"1"
 			{
-				"name"										"Roboto Light"
-				"tall"										"8"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Roboto12"
-		{
-			"1"
-			{
-				"name"										"Roboto Light"
-				"tall"										"12"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Roboto16"
-		{
-			"1"
-			{
-				"name"										"Roboto Light"
-				"tall"										"16"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Roboto18"
-		{
-			"1"
-			{
-				"name"										"Roboto Light"
-				"tall"										"18"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Roboto24"
-		{
-			"1"
-			{
-				"name"										"Roboto Light"
-				"tall"										"24"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Roboto32"
-		{
-			"1"
-			{
-				"name"										"Roboto Light"
-				"tall"										"32"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"MoonGet8"
-		{
-			"1"
-			{
-				"name"										"MOON GET! Heavy"
-				"tall"										"8"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"MoonGet12"
-		{
-			"1"
-			{
-				"name"										"MOON GET! Heavy"
-				"tall"										"12"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"MoonGet16"
-		{
-			"1"
-			{
-				"name"										"MOON GET! Heavy"
-				"tall"										"16"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"MoonGet18"
-		{
-			"1"
-			{
-				"name"										"MOON GET! Heavy"
-				"tall"										"18"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"MoonGet24"
-		{
-			"1"
-			{
-				"name"										"MOON GET! Heavy"
-				"tall"										"24"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"MoonGet32"
-		{
-			"1"
-			{
-				"name"										"MOON GET! Heavy"
-				"tall"										"32"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"MoonGet48"
-		{
-			"1"
-			{
-				"name"										"MOON GET! Heavy"
+				"name"										"Product Sans"
 				"tall"										"48"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"MoonGet64"
-		{
-			"1"
-			{
-				"name"										"MOON GET! Heavy"
-				"tall"										"64"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Boldfinger8"
-		{
-			"1"
-			{
-				"name"										"Boldfinger"
-				"tall"										"8"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Boldfinger16"
-		{
-			"1"
-			{
-				"name"										"Boldfinger"
-				"tall"										"16"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Boldfinger18"
-		{
-			"1"
-			{
-				"name"										"Boldfinger"
-				"tall"										"18"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"EquippedLabel"
-		{
-			"1"
-			{
-				"name"										"Roboto Light"
-				"tall"										"8"
-				"weight"									"500"
 				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"BoldFont8"
-		{
-			"1"
-			{
-				"name"										"The Bold Font"
-				"tall"										"8"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"BoldFont12"
-		{
-			"1"
-			{
-				"name"										"The Bold Font"
-				"tall"										"12"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"BoldFont16"
-		{
-			"1"
-			{
-				"name"										"The Bold Font"
-				"tall"										"16"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"BoldFont18"
-		{
-			"1"
-			{
-				"name"										"The Bold Font"
-				"tall"										"18"
-				"weight"									"0"
-				"antialias"									"1"
-			}
-		}
-		"BoldFont24"
-		{
-			"1"
-			{
-				"name"										"The Bold Font"
-				"tall"										"24"
-				"weight"									"0"
-				"antialias"									"1"
+				"antialias" 								"1"
 			}
 		}
 	}
-	
 	CustomFontFiles
 	{
-		"8" 
+		"1" 
 		{
-			"font" 		"resource/scheme/fonts/surface_medium.otf"
-			"name" 		"Surface-Medium"
+			"font" 		"resource/scheme/fonts/BebasNeue-Regular.ttf"
+			"name" 		"Bebas Neue Regular"
 		}
-		
-		"9" 
+		"2" 
 		{
-			"font" 		"resource/scheme/fonts/surface_numbers.otf"
-			"name" 		"Surface-Numbers"
+			"font" 		"resource/scheme/fonts/big_noodle_titling.ttf"
+			"name" 		"BigNoodleTitling"
 		}
-		
-		"10" 
+		"3"
 		{
-			"font" 		"resource/scheme/fonts/coolvetica.ttf"
-			"name" 		"Coolvetica"
+			"font"		"resource/scheme/fonts/Muro.otf"
+			"name"		"Muro"
 		}
-		
-		"11" 
+		"4"
 		{
-			"font" 		"resource/scheme/fonts/blocks.ttf"
-			"name" 		"Blocks"
+			"font"		"resource/scheme/TF2_Icons.ttf"
+			"name"		"TF2 Icons"
 		}
-		
-		"12" 
+		"5"
 		{
-			"font" 		"resource/scheme/fonts/m0rehud icons.ttf"
-			"name" 		"m0rehud Icons V3"
+			"font"		"resource/scheme/Product_Sans.ttf"
+			"name"		"Product Sans"
 		}
-		"13"
+		"6"
 		{
-			"font"		"resource/scheme/fonts/shadowhill-regular.otf"
-			"name" 		"ShadowHill-Regular"
+			"font"		"resource/scheme/hypnotize_icons.ttf"
+			"name"		"Hypnotize Icons HEx5"
 		}
-		"14"
+		"7"
 		{
-			"font"		"resource/scheme/fonts/poetsenone-regular.ttf"
-			"name"		"Poetsen One"
+			"font"		"resource/scheme/TF2CharacterIcons.ttf"
+			"name"		"TF2 Character Icons"
 		}
-		"15"
+		"8"
 		{
-			"font"		"resource/scheme/fonts/roboto-light.ttf"
-			"name"		"Roboto Light"
-		}
-		"16"
-		{
-			"font"		"resource/scheme/fonts/moon_get_heavy.ttf"
-			"name"		"MOON GET! Heavy"
-		}
-		"17"
-		{
-			"font"		"resource/scheme/fonts/boldfinger.ttf"
-			"name"		"Boldfinger"
-		}
-		"18"
-		{
-			"font"		"resource/scheme/fonts/theboldfont.ttf"
-			"name"		"The Bold Font"
+			"font"		"resouce/scheme/m0rehud icons.ttf"
+			"name"		"m0rehud Icons v3"
 		}
 	}
 }

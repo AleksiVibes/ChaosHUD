@@ -1,9 +1,11 @@
 #base "huditemeffectmeter.res"
 
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+// Spycicle
+
+"Resource/UI/HudItemEffectMeter_Heavy.res"
 {
-	"HudItemEffectMeter"
+	HudItemEffectMeter
 	{
-		"ypos"										"c174"
-	}
+		"ypos"			"r123"
+	}	
 }

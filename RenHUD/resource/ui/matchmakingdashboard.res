@@ -7,7 +7,7 @@
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"-5"
-		"zpos"					"10001"
+		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"35"
 		"keyboardinputenabled"	"0"
@@ -61,7 +61,7 @@
 			"zpos"			"-1"
 			"wide"			"p1.1"
 			"tall"			"f5"
-			"visible"		"0"
+			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
@@ -76,7 +76,7 @@
 			"zpos"			"-2"
 			"wide"			"p1.1"
 			"tall"			"p1"
-			"visible"		"0"
+			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
@@ -96,7 +96,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"m0reSymbols"
+			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -127,7 +127,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"replay/thumbnails/dropdown"
+				"image"			"glyph_chat"
 			}
 		}
 
@@ -613,8 +613,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"80 80 80 255"
-			"defaultBgColor_override"	"65 65 65 255"
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -672,8 +672,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"80 80 80 255"
-			"defaultBgColor_override"	"65 65 65 255"
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -771,15 +771,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"Coolvetica15"
-			"textAlignment"	"center"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"Find Game"
-			"roundedcorners"		"4"
-			
+			"labeltext"		"#MMenu_FindAGame"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -791,8 +789,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"SkyBlueDim"
-			"defaultBgColor_override"	"80 80 80 255"
+			"armedBgColor_override"		"CreditsGreen"
+			"defaultBgColor_override"	"GreenSolid"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -803,7 +801,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"22"
+				"xpos"			"6"
 				"ypos"			"10"
 				"zpos"			"1"
 				"wide"			"14"
@@ -812,7 +810,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			""
+				"image"			"glyph_multiplayer"
 				"drawcolor_override" "TanLight"
 			}
 		}
