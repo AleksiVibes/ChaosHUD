@@ -16,9 +16,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
+		"labelText"									""
 		"textAlignment"								"center"
-		"font"										"m0refont18Shadow"
+		"font"										"Product18"
 		"fgcolor"   								"Ubercharge"
 	}
 
@@ -59,7 +59,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"Product48"
 		"fgcolor"   								"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -80,30 +80,10 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"font"										"Product48"
 		"fgcolor"  									"Black"
 
 		"pin_to_sibling"							"ChargeLabelBig"
-	}
-	"ChargeLabelBigShadowExtra"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBigShadowExtra"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"2"
-		"wide"										"200"
-		"tall"										"80"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0refont72"
-		"fgcolor"  									"Black"
-		"alpha"  									"0"
-
-		"pin_to_sibling"							"ChargeLabelBigShadow"
 	}
 
 	//==================================================================================================================================================
@@ -115,16 +95,16 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"font"										"Default"
-		"xpos"										"0"
-		"ypos"										"rs1"
+		"xpos"										"555"
+		"ypos"										"395"
 		"zpos"										"2"
-		"wide"										"f0"
+		"wide"										"90"
 		"tall"										"4"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"textAlignment"								"Left"
-		"fgcolor_override"							"Ubercharge"
+		"proportionaltoparent"						"0"
+		"textAlignment"								"Center"
+		"fgcolor_override"							"255 255 255 255"
 	}
 
 	//==================================================================================================================================================
@@ -146,7 +126,7 @@
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
 		"fgcolor"									"Ubercharge"
-		"font"										"m0refont18Shadow"
+		"font"										"Product18"
 
 		"pin_to_sibling"							"ChargeLabel"
 	}

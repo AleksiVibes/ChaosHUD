@@ -84,7 +84,7 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"TargetHealth"
-				"font"								"Default"
+				"font"								"Product12"
 				"xpos"								"48"
 				"ypos"								"cs-0.5+6"
 				"wide"								"30"

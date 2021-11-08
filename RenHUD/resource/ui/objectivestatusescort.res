@@ -373,7 +373,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapNumPlayers"
-			"font"									"ItemFontAttribSmall"
+			"font"									"Product8"
 			"xpos"									"25"
 			"ypos"									"53"
 			"zpos"									"4"

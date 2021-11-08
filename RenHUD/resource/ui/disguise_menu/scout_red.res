@@ -5,10 +5,10 @@
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ClassIcon"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-3"
 		"zpos"										"1"
-		"wide"										"20"
-		"tall"										"40"
+		"wide"										"35"
+		"tall"										"70"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -30,7 +30,7 @@
 		"labelText"									"1"
 		"proportionaltoparent"						"1"
 		"textAlignment"								"Center"
-		"font"										"m0refont11"
+		"font"										"Product12"
 		"fgcolor"									"White"
 	}
 

@@ -48,7 +48,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"150"
+		"xpos"			"100"
 		"ypos"			"310"
 		"zpos"			"1"
 		"wide"			"100"
@@ -120,13 +120,15 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"paintbackground"		"1"
+		"bgcolor_override"		"33 33 33 255"
+		"border"		"NoBorder"
 		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Product12"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"

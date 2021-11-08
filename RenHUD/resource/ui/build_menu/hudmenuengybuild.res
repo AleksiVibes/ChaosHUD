@@ -5,7 +5,7 @@
 		"ControlName"		     					"EditablePanel"
 		"fieldName"									"ItemsAnchor"
 		"xpos"										"cs-0.5"
-		"ypos"										"r120"
+		"ypos"										"315"
 		"zpos"										"0"
 		"wide"										"145"
 		"tall"										"40"

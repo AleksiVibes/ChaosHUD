@@ -38,7 +38,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CostLabel"
-		"font"										"m0refont18Shadow"
+		"font"										"Product12"
 		"fgcolor"									"White"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5-5"
@@ -51,12 +51,11 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"Center"
 	}
-
 	"CantBuildReason"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CantBuildReason"
-		"font"										"m0refont9"
+		"font"										"Product8"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"5"
@@ -75,7 +74,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"font"										"m0refont12"
+		"font"										"Product8"
 		"fgcolor"									"White"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"

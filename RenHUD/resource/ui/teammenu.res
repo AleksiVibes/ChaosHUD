@@ -56,8 +56,8 @@
 		"zpos"           							"0"
 		"wide"		    	  						"2"
 		"tall"		    	  						"12"
-		"visible"	    	  						"1"
-		"enabled"		      						"1"
+		"visible"	    	  						"0"
+		"enabled"		      						"0"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
@@ -74,11 +74,11 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldname"									"BlueButton"
-		"xpos"			  							"0"
+		"xpos"			  							"-1"
 		"ypos"			  							"0"
 		"zpos"			  							"1"
 		"wide"			  							"125"
-		"tall"			  							"12"
+		"tall"			  							"50"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									""
@@ -116,7 +116,7 @@
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"BlueCount"
 		"xpos"			  							"-5"
-		"ypos"			  							"15"
+		"ypos"			  							"0"
 		"zpos"			  							"2"
 		"wide"			  							"120"
 		"tall"			  							"36"
@@ -126,12 +126,32 @@
 		"mouseinputenabled"							"0"
 		"labelText"		  							"%bluecount%"
 		"textAlignment"	  							"east"
-		"font"			  							"m0refont36"
+		"font"			  							"Product32"
 		"fgcolor"		  							"White"
 
 		"pin_to_sibling"							"BlueButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	"BlueLabel"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"BlueLabel"
+		"xpos"										"-7"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"50"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		
+		"labelText"									"BLU"
+		"font"										"Product18"
+		"fgcolor_override"							"60 92 112 255"
+		"armedfgcolor_override"						"0 0 0 255"
+
+		"pin_to_sibling"							"BlueButton"
+	
 	}
 
 	//==================================================================================================================================================
@@ -142,11 +162,11 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldname"									"RedButton"
-		"xpos"			  							"0"
+		"xpos"			  							"-1"
 		"ypos"			  							"0"
 		"zpos"			  							"1"
 		"wide"			  							"125"
-		"tall"			  							"12"
+		"tall"			  							"50"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									""
@@ -184,7 +204,7 @@
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"RedCount"
 		"xpos"			  							"-5"
-		"ypos"			  							"15"
+		"ypos"			  							"0"
 		"zpos"			  							"2"
 		"wide"			  							"120"
 		"tall"			  							"36"
@@ -194,10 +214,30 @@
 		"mouseinputenabled"							"0"
 		"labelText"		  							"%redcount%"
 		"textAlignment"	  							"west"
-		"font"			  							"m0refont36"
+		"font"			  							"Product32"
 		"fgcolor"		  							"White"
 
 		"pin_to_sibling"							"RedButton"
+	}
+	"RedLabel"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"RedLabel"
+		"xpos"										"-90"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"50"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		
+		"labelText"									"RED"
+		"font"										"Product18"
+		"fgcolor_override"							"164 41 47 255"
+		"armedfgcolor_override"						"0 0 0 255"
+
+		"pin_to_sibling"							"RedButton"
+	
 	}
 
 	//==================================================================================================================================================
@@ -209,13 +249,13 @@
 		"xpos"			  							"0"
 		"ypos"			  							"22"
 		"zpos"			  							"1"
-		"wide"			  							"60"
+		"wide"			  							"75"
 		"tall"			  							"12"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"		  							"RANDOM"
 		"textAlignment"	  							"center"
-		"font"			  							"m0refont11"
+		"font"			  							"Product18"
 		"command"									"jointeam auto"
 		"use_proportional_insets" 					"1"
 		"default"									"1"
@@ -246,16 +286,16 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldname"									"SpectateButton"
-		"xpos"			  							"0"
-		"ypos"			  							"22"
-		"zpos"			  							"1"
-		"wide"			  							"60"
+		"xpos"			  							"8"
+		"ypos"			  							"15"
+		"zpos"			  							"100"
+		"wide"			  							"90"
 		"tall"			  							"12"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"		  							"SPECTATE"
 		"textAlignment"	  							"center"
-		"font"			  							"m0refont11"
+		"font"			  							"Product18"
 		"command"									"jointeam spectate"
 		"use_proportional_insets" 					"1"
 		"default"									"1"
@@ -268,9 +308,7 @@
 		"armedFgColor_override"						"175 175 175 255"
 		"depressedFgColor_override"					"White"
 
-		"pin_to_sibling"							"WhiteBar"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"RandomButton"
 	}
 	"SpectateShortKey"
 	{
@@ -280,6 +318,21 @@
 		"labelText"									"&2"
 		"Command"									"jointeam spectate"
 		"visible"									"1"
+	}
+	"Line"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"Line"
+		"xpos"										"0"
+		"ypos"										"-20"
+		
+		"wide"										"75"
+		"tall"										"2"
+		
+		"paintbackground"							"1"
+		"bgcolor_override"							"255 255 255 255"
+
+		"pin_to_sibling"							"RandomButton"
 	}
 
 

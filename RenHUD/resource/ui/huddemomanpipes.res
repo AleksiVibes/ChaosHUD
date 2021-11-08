@@ -28,7 +28,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_Charge"
 		"textAlignment"								"center"
-		"font"										"BoldFont8"
+		"font"										"Product8"
 		"fgcolor"									"255 255 255 255"
 
 		"pin_to_sibling" 							"ChargeMeter"
@@ -61,7 +61,7 @@
 			"proportionaltoparent"					"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"font"									"m0refont24"
+			"font"									"Product24"
 			"fgcolor"   							"White"
 		}
 		"NumPipesLabelDropshadow"
@@ -78,7 +78,7 @@
 			"proportionaltoparent"					"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
-			"font"									"m0refont24"
+			"font"									"product24"
 			"fgcolor"								"Black"
 
 			"pin_to_sibling"						"NumPipesLabel"

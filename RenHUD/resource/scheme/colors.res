@@ -23,7 +23,7 @@ Scheme
 		"Ammo No Clip Low"									"255 0 0 255"
 
 		"Ubercharge"										"255 255 255 255"
-		"Ubercharge Full"									"255 0 127 255"
+		"Ubercharge Full"									"0 146 255 255"
 		
 		"Extra Shadow"										"0 0 0 0"
 
@@ -33,8 +33,8 @@ Scheme
 		"Menu Labels"										"255 0 127 255"
 		"Class Selection"									"0 215 0 255"
 		
-		"m0reBlue"											"0 120 201 255"
-		"m0reRed"											"235 58 58 255"
+		"Blue"												"0 120 201 255"
+		"Red"												"235 58 58 255"
 
 		"TF2Blue"											"90 122 143 255"
 		"TF2Red"											"189 59 61 255"

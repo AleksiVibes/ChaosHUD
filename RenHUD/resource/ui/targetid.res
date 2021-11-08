@@ -63,7 +63,7 @@
 		"tall"			           					"12"
 		"visible"		           					"1"
 		"enabled"		           					"1"
-		"font"			           					"m0refont11"
+		"font"			           					"Product12"
 		"labelText"		         					"%targetname%"
 		"textAlignment"		     					"west"
 		"fgcolor"     								"White"
@@ -98,7 +98,7 @@
 		"enabled"		                 			"1"
 		"HealthBonusPosAdj"	         				"10"
 		"HealthDeathWarning"	      			 	"0.49"
-		"TFFont"		                 			"HudFontSmall"
+		"TFFont"		                 			"Product"
 		"HealthDeathWarningColor"	   				"HUDDeathWarning"
 		"TextColor"		               				"HudOffWhite"
 	}

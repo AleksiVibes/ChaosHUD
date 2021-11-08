@@ -1,634 +1,567 @@
 "Resource/UI/HudMenuTauntSelection.res"
 {
-	//==================================================================================================================================================
-	// BACKGROUND - ANCHOR
-	// Moves all 8 taunts at the same time
-	//==================================================================================================================================================
-
-	"Background"
+	"MainBackground"	
 	{
-		"ControlName"		     					"EditablePanel"
-		"fieldName"									"Background"
-		"xpos"										"cs-0.5"
-		"ypos"										"c55"
-		"zpos"										"0"
-		"wide"										"281"
-		"tall"										"50"
-		"visible"		        					"1"
-		"enabled"	          						"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MainBackground"
+		"xpos"			"9999"
 	}
 
-	//==================================================================================================================================================
+	"Divider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Divider"
+		"xpos"			"9999"
+	}
+
+	"IcoReelIcon"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"IcoReelIcon"
+		"xpos"			"9999"
+	}
+
+	"TauntBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TauntBG"
+		"xpos"			"10"
+		"ypos"			"10"
+		"zpos"			"0"
+		"wide"			"105"
+		"tall"			"175"
+		
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 200"
+
+		"pin_to_sibling"	"TauntAnchor"
+	}
+	
+	"TitleLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabel"
+		"font"			"NoodleTitling24"
+		"xpos"			"35"			// align me to the left edge of the first selection
+		"ypos"			"110"
+		"zpos"			"3"
+		"wide"			"360"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Taunts"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+	
+	"TitleLabelDropshadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"font"			"NoodleTitling24"
+		"fgcolor"		"Black"
+		"xpos"			"-1"			// align me to the left edge of the first selection
+		"ypos"			"-1"
+		"zpos"			"3"
+		"wide"			"360"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Taunts"
+		"textAlignment"	"Left"
+		"dulltext"		"1"
+		"brighttext"	"0"
+
+		"pin_to_sibling"	"TitleLabel"
+	}
 
 	"WeaponTauntLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"WeaponTauntLabel"
+		"font"			"Default"
+		"xpos"			"17"
+		"ypos"			"49"
+		"zpos"			"2"
+		"wide"			"350"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+	
+	"CancelLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"CancelLabel"
+		"font"			"NoodleTitling18"
+		"xpos"			"-38"
+		"ypos"			"317"
+		"zpos"			"2"
+		"wide"			"200"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Taunt_Cancel"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+	"CancelLabelShadow"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"WeaponTauntLabel"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"281"
-		"tall"										"9"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"#Hud_Menu_Taunt_Weapon"
-		"textAlignment"								"west"
-		"textinsetx"								"5"
-		"font"										"SpectatorKeyHints"
-		"fgcolor"									"Black"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"White"
-		"pin_to_sibling"							"Background"
+		"ControlName"	"CExLabel"
+		"fieldName"		"CancelLabelShadow"
+		"font"			"NoodleTitling18"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"200"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Taunt_Cancel"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+
+		"pin_to_sibling"	"CancelLabel"
+
+		"fgcolor_override"	"0 0 0 255"
 	}
 
-	//==================================================================================================================================================
-	// TAUNT ONE
-	//==================================================================================================================================================
+	"TauntAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TauntAnchor"
+		"xpos"			"17"
+		"ypos"			"150"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+
+	}
 
 	"TauntModelPanel1"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"TauntModelPanel1"
-		"xpos"										"-3"
-		"ypos"										"-12"
-		"zpos"										"100"
-		"wide"										"33"
-		"tall"										"25"
-		"visible"									"1"
-		"noitem_textcolor"							"117 107 94 255"
-		"paintbackground"							"0"
-		"paintborder"								"1"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"40"
+		"tall"			"35"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"1"
+		"paintborder"	"1"
+			
+		"model_ypos"	"5"
+		"model_tall"	"30"
+		"text_ypos"		"40"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
 
-		"model_ypos"								"3"
-		"model_tall"								"38"
-		"text_ypos"									"46"
-		"text_center"								"1"
-		"text_forcesize"							"3"
-		"model_only"								"1"
-
+		"pin_to_sibling"	"TauntAnchor"
+			
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
-			"visible"								"0"
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
 		}
-
+			
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"allow_rot"								"0"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
 		}
-
-		"pin_to_sibling"							"Background"
 	}
-	"NumberLabel1"
+
+	"NumberBg1"	
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel1"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"115"
-		"wide"										"15"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"1"
-		"textAlignment"								"center"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"TauntModelPanel1"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg1"
+		"xpos"			"9999"
 	}
-
-	//==================================================================================================================================================
-	// TAUNT TWO
-	//==================================================================================================================================================
+	
+	"NumberLabel1"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel1"
+		"xpos"			"9999"
+	}
 
 	"TauntModelPanel2"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"TauntModelPanel2"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"100"
-		"wide"										"33"
-		"tall"										"25"
-		"visible"									"1"
-		"noitem_textcolor"							"117 107 94 255"
-		"paintbackground"							"0"
-		"paintborder"								"1"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel2"
+		"xpos"			"0"
+		"ypos"			"-40"
+		"zpos"			"100"
+		"wide"			"40"
+		"tall"			"35"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
 
-		"model_ypos"								"3"
-		"model_tall"								"38"
-		"text_ypos"									"46"
-		"text_center"								"1"
-		"text_forcesize"							"3"
-		"model_only"								"1"
+		"model_ypos"	"5"
+		"model_tall"	"30"
+		"text_ypos"		"40"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
 
-		"pin_to_sibling"							"TauntModelPanel1"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
+		"pin_to_sibling"	"TauntAnchor"
+			
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
-			"visible"								"0"
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
 		}
-
+			
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"allow_rot"								"0"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
 		}
 	}
-	"NumberLabel2"
+
+	"NumberBg2"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel2"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"115"
-		"wide"										"15"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"2"
-		"textAlignment"								"center"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"TauntModelPanel2"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg2"
+		"xpos"			"9999"
 	}
-
-	//==================================================================================================================================================
-	// TAUNT THREE
-	//==================================================================================================================================================
+	
+	"NumberLabel2"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel2"
+		"xpos"			"9999"
+	}
 
 	"TauntModelPanel3"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"TauntModelPanel3"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"100"
-		"wide"										"33"
-		"tall"										"25"
-		"visible"									"1"
-		"noitem_textcolor"							"117 107 94 255"
-		"paintbackground"							"0"
-		"paintborder"								"1"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel3"
+		"xpos"			"0"
+		"ypos"			"-80"
+		"zpos"			"100"
+		"wide"			"40"
+		"tall"			"35"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+			
+		"model_ypos"	"5"
+		"model_tall"	"30"
+		"text_ypos"		"40"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
 
-		"model_ypos"								"3"
-		"model_tall"								"38"
-		"text_ypos"									"46"
-		"text_center"								"1"
-		"text_forcesize"							"3"
-		"model_only"								"1"
-
-		"pin_to_sibling"							"TauntModelPanel2"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
+		"pin_to_sibling"	"TauntAnchor"
+			
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
-			"visible"								"0"
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
 		}
-
+			
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"allow_rot"								"0"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
 		}
 	}
-	"NumberLabel3"
+	
+	"NumberBg3"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel3"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"115"
-		"wide"										"15"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"3"
-		"textAlignment"								"center"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"TauntModelPanel3"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg3"
+		"xpos"			"9999"
 	}
-
-	//==================================================================================================================================================
-	// TAUNT FOUR
-	//==================================================================================================================================================
+	
+	"NumberLabel3"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel3"
+		"xpos"			"9999"
+	}
 
 	"TauntModelPanel4"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"TauntModelPanel4"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"100"
-		"wide"										"33"
-		"tall"										"25"
-		"visible"									"1"
-		"noitem_textcolor"							"117 107 94 255"
-		"paintbackground"							"0"
-		"paintborder"								"1"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel4"
+		"xpos"			"0"
+		"ypos"			"-120"
+		"zpos"			"100"
+		"wide"			"40"
+		"tall"			"35"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"1"
+		"paintborder"	"1"
+			
+		"model_ypos"	"5"
+		"model_tall"	"30"
+		"text_ypos"		"40"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
 
-		"model_ypos"								"3"
-		"model_tall"								"38"
-		"text_ypos"									"46"
-		"text_center"								"1"
-		"text_forcesize"							"3"
-		"model_only"								"1"
-
-		"pin_to_sibling"							"TauntModelPanel3"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
+		"pin_to_sibling"	"TauntAnchor"
+			
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
-			"visible"								"0"
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
 		}
-
+			
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget"					"0"
-			"allow_rot"								"0"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
 		}
 	}
-	"NumberLabel4"
+
+	"NumberBg4"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel4"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"115"
-		"wide"										"15"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"4"
-		"textAlignment"								"center"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"TauntModelPanel4"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg4"
+		"xpos"			"9999"
 	}
-
-	//==================================================================================================================================================
-	// TAUNT FIVE
-	//==================================================================================================================================================
+	
+	"NumberLabel4"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel4"
+		"xpos"			"9999"
+	}
 
 	"TauntModelPanel5"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"TauntModelPanel5"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"100"
-		"wide"										"33"
-		"tall"										"25"
-		"visible"									"1"
-		"noitem_textcolor"							"117 107 94 255"
-		"paintbackground"							"0"
-		"paintborder"								"1"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel5"
+		"xpos"			"-45"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"40"
+		"tall"			"35"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+			
+		"model_ypos"	"5"
+		"model_tall"	"30"
+		"text_ypos"		"40"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
 
-		"model_ypos"								"3"
-		"model_tall"								"38"
-		"text_ypos"									"46"
-		"text_center"								"1"
-		"text_forcesize"							"3"
-		"model_only"								"1"
-
-		"pin_to_sibling"							"TauntModelPanel4"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
+		"pin_to_sibling"	"TauntAnchor"
+			
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
-			"visible"								"0"
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
 		}
-
+			
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"allow_rot"								"0"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
 		}
 	}
-	"NumberLabel5"
+
+	"NumberBg5"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel5"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"115"
-		"wide"										"15"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"5"
-		"textAlignment"								"center"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"TauntModelPanel5"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg5"
+		"xpos"			"9999"
 	}
-
-	//==================================================================================================================================================
-	// TAUNT SIX
-	//==================================================================================================================================================
+	
+	"NumberLabel5"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel5"
+		"xpos"			"9999"
+	}
 
 	"TauntModelPanel6"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"TauntModelPanel6"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"100"
-		"wide"										"33"
-		"tall"										"25"
-		"visible"									"1"
-		"noitem_textcolor"							"117 107 94 255"
-		"paintbackground"							"0"
-		"paintborder"								"1"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel6"
+		"xpos"			"-45"
+		"ypos"			"-40"
+		"zpos"			"100"
+		"wide"			"40"
+		"tall"			"35"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+		
+		"pin_to_sibling"	"TauntAnchor"
 
-		"model_ypos"								"3"
-		"model_tall"								"38"
-		"text_ypos"									"46"
-		"text_center"								"1"
-		"text_forcesize"							"3"
-		"model_only"								"1"
-
-		"pin_to_sibling"							"TauntModelPanel5"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
+		"model_ypos"	"5"
+		"model_tall"	"30"
+		"text_ypos"		"40"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
+			
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
-			"visible"								"0"
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
 		}
-
+			
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"allow_rot"								"0"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
 		}
 	}
-	"NumberLabel6"
+
+	"NumberBg6"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel6"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"115"
-		"wide"										"15"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"6"
-		"textAlignment"								"center"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"TauntModelPanel6"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg6"
+		"xpos"			"9999"
 	}
-
-	//==================================================================================================================================================
-	// TAUNT SEVEN
-	//==================================================================================================================================================
+	
+	"NumberLabel6"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel6"
+		"xpos"			"9999"
+	}
 
 	"TauntModelPanel7"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"TauntModelPanel7"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"100"
-		"wide"										"33"
-		"tall"										"25"
-		"visible"									"1"
-		"noitem_textcolor"							"117 107 94 255"
-		"paintbackground"							"0"
-		"paintborder"								"1"
-
-		"model_ypos"								"3"
-		"model_tall"								"38"
-		"text_ypos"									"46"
-		"text_center"								"1"
-		"text_forcesize"							"3"
-		"model_only"								"1"
-
-		"pin_to_sibling"							"TauntModelPanel6"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel7"
+		"xpos"			"-45"
+		"ypos"			"-80"
+		"zpos"			"100"
+		"wide"			"40"
+		"tall"			"35"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+			
+		"model_ypos"	"5"
+		"model_tall"	"30"
+		"text_ypos"		"40"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
+		
+		"pin_to_sibling"	"TauntAnchor"
 
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
-			"visible"								"0"
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
 		}
-
+			
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"allow_rot"								"0"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
 		}
 	}
-	"NumberLabel7"
+
+	"NumberBg7"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel7"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"115"
-		"wide"										"15"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"7"
-		"textAlignment"								"center"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
-
-		"pin_to_sibling"							"TauntModelPanel7"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg7"
+		"xpos"			"9999"
 	}
-
-	//==================================================================================================================================================
-	// TAUNT EIGHT
-	//==================================================================================================================================================
+	
+	"NumberLabel7"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel7"
+		"xpos"			"9999"
+	}
 
 	"TauntModelPanel8"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"TauntModelPanel8"
-		"xpos"										"2"
-		"ypos"										"0"
-		"zpos"										"100"
-		"wide"										"33"
-		"tall"										"25"
-		"visible"									"1"
-		"noitem_textcolor"							"117 107 94 255"
-		"paintbackground"							"0"
-		"paintborder"								"1"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"TauntModelPanel8"
+		"xpos"			"-45"
+		"ypos"			"-120"
+		"zpos"			"100"
+		"wide"			"40"
+		"tall"			"35"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+			
+		"model_ypos"	"5"
+		"model_tall"	"30"
+		"text_ypos"		"40"
+		"text_center"	"1"
+		"text_forcesize"	"3"
+		"model_only"		"1"
 
-		"model_ypos"								"3"
-		"model_tall"								"38"
-		"text_ypos"									"46"
-		"text_center"								"1"
-		"text_forcesize"							"3"
-		"model_only"								"1"
-
-		"pin_to_sibling"							"TauntModelPanel7"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
+		"pin_to_sibling"	"TauntAnchor"
+			
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
-			"visible"								"0"
+			"font"			"ItemFontAttribLarge"
+			"visible"		"0"
 		}
-
+			
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"allow_rot"								"0"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
 		}
 	}
-	"NumberLabel8"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel8"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"115"
-		"wide"										"15"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"8"
-		"textAlignment"								"center"
-		"font"										"m0refont12"
-		"fgcolor"									"White"
 
-		"pin_to_sibling"							"TauntModelPanel8"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-	}
-
-
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-
-	"MainBackground"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"xpos"										"9999"
-	}
-	"Divider"
-	{
-		"ControlName"		     					"ImagePanel"
-		"fieldName"									"Divider"
-		"xpos"										"9999"
-	}
-	"IcoReelIcon"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"IcoReelIcon"
-		"xpos"										"9999"
-	}
-	"TitleLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabel"
-		"xpos"										"9999"
-	}
-	"TitleLabelDropshadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabelDropshadow"
-		"xpos"										"9999"
-	}
-	"CancelLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CancelLabel"
-		"xpos"										"9999"
-	}
-	"NumberBg1"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg1"
-		"xpos"										"9999"
-	}
-	"NumberBg2"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg2"
-		"xpos"										"9999"
-	}
-	"NumberBg3"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg3"
-		"xpos"										"9999"
-	}
-	"NumberBg4"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg4"
-		"xpos"										"9999"
-	}
-	"NumberBg5"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg5"
-		"xpos"										"9999"
-	}
-	"NumberBg6"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg6"
-		"xpos"										"9999"
-	}
-	"NumberBg7"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg7"
-		"xpos"										"9999"
-	}
 	"NumberBg8"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg8"
-		"xpos"										"9999"
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg8"
+		"xpos"			"9999"
+	}
+	
+	"NumberLabel8"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel8"
+		"xpos"			"9999"
 	}
 }

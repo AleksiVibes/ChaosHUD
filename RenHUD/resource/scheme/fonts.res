@@ -167,6 +167,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"Muro11"
+		{
+			"1"
+			{
+				"name"										"Muro"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"Muro12"
 		{
 			"1"

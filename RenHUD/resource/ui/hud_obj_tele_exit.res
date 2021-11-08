@@ -118,7 +118,7 @@
 		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
+			"font"									"Product12"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"8"
@@ -144,7 +144,7 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"BuildingProgress"
-				"font"								"Default"
+				"font"								"Product12"
 				"xpos"								"0"
 				"ypos"								"cs-0.5"
 				"wide"								"38"
@@ -194,7 +194,7 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
-				"font"								"Default"
+				"font"								"Product12"
 				"xpos"								"12"
 				"ypos"								"cs-0.5"
 				"wide"								"30"

@@ -118,7 +118,7 @@
 		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
-			"font"									"Default"
+			"font"									"Product12"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"8"
@@ -144,7 +144,7 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"BuildingProgress"
-				"font"								"Default"
+				"font"								"Product12"
 				"xpos"								"0"
 				"ypos"								"cs-0.5"
 				"wide"								"38"
@@ -193,7 +193,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
-				"font"								"m0refont11"
+				"font"								"Product12"
 				"xpos"								"12"
 				"ypos"								"2"
 				"wide"								"f15"
@@ -226,7 +226,7 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Shells"
-				"font"								"Default"
+				"font"								"Product12"
 				"xpos"								"12"
 				"ypos"								"16"
 				"wide"								"30"

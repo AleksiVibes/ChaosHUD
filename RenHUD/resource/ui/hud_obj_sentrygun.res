@@ -227,7 +227,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"KillsLabel"
-				"font"								"m0refont11"
+				"font"								"Product12"
 				"xpos"								"12"
 				"ypos"								"0"
 				"wide"								"f15"
@@ -262,7 +262,7 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Shells"
-				"font"								"Default"
+				"font"								"Product12"
 				"xpos"								"12"
 				"ypos"								"16"
 				"wide"								"30"
@@ -296,7 +296,7 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Rockets"
-				"font"								"Default"
+				"font"								"Product12"
 				"xpos"								"12"
 				"ypos"								"30"
 				"wide"								"30"
@@ -330,7 +330,7 @@
 			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
-				"font"								"Default"
+				"font"								"Product12"
 				"xpos"								"12"
 				"ypos"								"30"
 				"wide"								"30"
