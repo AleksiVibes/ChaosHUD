@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"CexLabel"
 		"fieldName"									"PlayerStatusHealthValueSpecgui"
-		"xpos"			   							"cs-0.5"
-		"ypos"			    						"cs-0.5"
+		"xpos"			   							"25"
+		"ypos"			    						"3"
 		"zpos"			    						"5"
 		"wide"			    						"f0"
 		"tall"			    						"f0"
@@ -14,7 +14,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"		 							"%Health%"
-		"font"										"m0refont11"
+		"font"										"Product12"
 		"fgcolor"		    						"Health Numbers"
 	}
 
@@ -32,7 +32,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"		  							"%Health%"
-		"font"										"m0refont11"
+		"font"										"Product12"
 		"fgcolor"		    						"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueSpecgui"

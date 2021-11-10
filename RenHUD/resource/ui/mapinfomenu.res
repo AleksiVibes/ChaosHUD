@@ -17,7 +17,7 @@
 	{
 		"ControlName"								"CExRichText"
 		"fieldName"									"MapInfoText"
-		"font"										"m0refont11"
+		"font"										"Product12"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"3"
@@ -44,7 +44,7 @@
 		"enabled"									"1"
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
-		"font"										"Coolvetica15"
+		"font"										"Product16"
 		"fgcolor"									"White"
 		"AllCaps"	 								"1"
 
