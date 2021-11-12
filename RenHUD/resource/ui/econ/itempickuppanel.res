@@ -212,7 +212,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#CloseItemPanel"
+		"labelText"		""
 		"roundedcorners"	"0"
 		"font"			"Product12"
 		"textAlignment"	"center"
