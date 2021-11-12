@@ -633,27 +633,27 @@ Scheme
 		}
 		"4"
 		{
-			"font"		"resource/scheme/TF2_Icons.ttf"
+			"font"		"resource/scheme/fonts/TF2_Icons.ttf"
 			"name"		"TF2 Icons"
 		}
 		"5"
 		{
-			"font"		"resource/scheme/Product_Sans.ttf"
+			"font"		"resource/scheme/fonts/Product_Sans.ttf"
 			"name"		"Product Sans"
 		}
 		"6"
 		{
-			"font"		"resource/scheme/hypnotize_icons.ttf"
+			"font"		"resource/scheme/fonts/hypnotize_icons.ttf"
 			"name"		"Hypnotize Icons HEx5"
 		}
 		"7"
 		{
-			"font"		"resource/scheme/TF2CharacterIcons.ttf"
+			"font"		"resource/scheme/fonts/TF2CharacterIcons.ttf"
 			"name"		"TF2 Character Icons"
 		}
 		"8"
 		{
-			"font"		"resouce/scheme/m0rehud icons.ttf"
+			"font"		"resouce/scheme/fonts/m0rehud icons.ttf"
 			"name"		"m0rehud Icons v3"
 		}
 	}
