@@ -1,6 +1,5 @@
-"#base"	"../scripts/crosshairs/crosshairs.res"
-"#base"	"../scripts/transparent viewmodels.res"
-"#base"	"../scripts/layouts/hudlayout_default.res"
+#base	"../scripts/layouts/hudlayout_default.res"
+#base "../customize/crosshairs/crosshair.res"
 
 "Resource/HudLayout.res"
 {
@@ -62,9 +61,7 @@
 	"CHealthAccountPanel"
 	{
 		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"r25"
-		"ypos_minmode"								"r25"
+		"ypos"										"r140"
 		"wide"										"f0"
 		"tall"  									"25"
 	}
@@ -80,7 +77,10 @@
 		"EndRadius"									"80"
 		"MinimumHeight"								"30"
 		"MaximumHeight"								"60"
-		"MinimumTime"								"1"
+		"Minimum
+		
+		
+		"								"1"
 	}
 
 	"CDamageAccountPanel"
@@ -113,7 +113,7 @@
 
 	"CSecondaryTargetID"
 	{
-		"ypos"										"c122"
+		"ypos"										"c85"
 		"tall"	 									"32"
 		"tall_minmode"	 							"32"
 	}

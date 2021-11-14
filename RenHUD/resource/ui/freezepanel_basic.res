@@ -13,7 +13,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"FreezePanelBase"
 		"xpos"										"cs-0.5"
-		"ypos"										"c70"
+		"ypos"										"c50"
 		"wide"										"250"
 		"tall"										"30"
 		"visible"									"1"
@@ -21,45 +21,29 @@
 
 		"FreezePanelBG"
 		{
-			"ControlName"							"CTFImagePanel"
+			"ControlName"							"EditablePanel"
 			"fieldName"								"FreezePanelBG"
-			"xpos"									"0"
+			"xpos"									"50"
 			"ypos"									"cs-0.5"
 			"zpos"									"0"
-			"wide"									"f2"
-			"tall"									"15"
+			"wide"									"175"
+			"tall"									"25"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"image"									"../hud/color_panel_blu"
-			"scaleImage"							"1"
+			"paintbackground"						"1"
+			"bgcolor_override"						"0 0 0 175"
 			"src_corner_height"						"15"
 			"src_corner_width"	 					"15"
 			"draw_corner_width"	 					"0"
 			"draw_corner_height" 					"0"
-		}
-		"FreezePanelBGWhite"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"FreezePanelBGWhite"
-			"xpos"									"rs1"
-			"ypos"									"cs-0.5"
-			"zpos"									"-1"
-			"wide"									"2"
-			"tall"									"15"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"PaintBackground"						"1"
-			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"White"
 		}
 
 		"FreezePanelHealth"
 		{
 			"ControlName"							"CTFFreezePanelHealth"
 			"fieldName"								"FreezePanelHealth"
-			"xpos"									"0"
+			"xpos"									"55"
 			"ypos"									"cs-0.5"
 			"zpos"									"1"
 			"wide"									"40"
@@ -78,8 +62,8 @@
 		{
 			"ControlName"							"CAvatarImagePanel"
 			"fieldName"								"AvatarImage"
-			"xpos"									"45"
-			"ypos"									"cs-0.5"
+			"xpos"									"-10"
+			"ypos"									"0"
 			"zpos"									"0"
 			"wide"									"11"
 			"tall"									"11"
@@ -89,14 +73,16 @@
 			"image"									""
 			"scaleImage"							"1"
 			"color_outline"							"Blank"
+
+			"pin_to_sibling"						"Separator"
 		}
 
-		"FreezeLabelKiller"							//Pinned to AvatarImage by default
+		"FreezeLabelKiller"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabelKiller"
-			"xpos"									"70"
-			"ypos"									"cs-0.5"
+			"xpos"									"0"
+			"ypos"									"-5"
 			"zpos"									"1"
 			"wide"									"170"
 			"tall"									"15"
@@ -104,9 +90,45 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"labelText"								"%killername%"
-			"font"									"m0refont11"
+			"font"									"Product12"
 			"textAlignment"							"west"
 			"fgcolor"  								"White"
+
+			"pin_to_sibling"						"Separator"
+		}
+		"FreezeLabelKillerShadow"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"FreezeLabelKillerShadow"
+			"xpos"									"1"
+			"ypos"									"1"
+			"zpos"									"1"
+			"wide"									"170"
+			"tall"									"15"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"labelText"								"%killername%"
+			"font"									"Product12"
+			"textAlignment"							"west"
+			"fgcolor"  								"Black"
+
+			"pin_to_sibling"						"FreezeLabelKiller"
+		}
+		"Separator"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"Separator"
+			"xpos"									"90"
+			"ypos"									"3"
+			"wide"									"1"
+			"tall"									"24"
+			"visible"								"1"
+			"enabled"								"1"
+			"zpos"									"5"
+
+			"paintbackground"						"1"
+			"bgcolor_override"						"255 255 255 255"
 		}
 
 		//REMOVED

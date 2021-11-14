@@ -119,7 +119,7 @@
 			"ControlName"			"CExLabel"
 			"fieldName"				"BlueTeamScore"
 			"font"					"Bebas24"
-			"labelText"				"2"
+			"labelText"				"%blueteamscore%"
 			"textAlignment"			"center"
 			"textinsetx"			"0"
 			"xpos"					"0"
@@ -177,7 +177,7 @@
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"RedTeamScore"
-			"labelText"				"3"
+			"labelText"				"%redteamscore%"
 			"font"					"Bebas24"
 			"textAlignment"			"center"
 			"xpos"					"90"

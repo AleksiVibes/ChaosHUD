@@ -13,6 +13,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"Bebas10"
+		{
+			"1"
+			{
+				"name"										"Bebas Neue Regular"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"Bebas12"
 		{
 			"1"

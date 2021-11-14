@@ -137,10 +137,10 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"Roboto16"
+			"font"									"Product16"
 			"fgcolor"								"White"
 			"xpos"									"cs-0.5"
-			"ypos"									"-2"
+			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"f0"
 			"tall"									"15"
@@ -149,6 +149,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
+			"bgcolor_override"						"0 0 0 100"
 		}
 	}
 

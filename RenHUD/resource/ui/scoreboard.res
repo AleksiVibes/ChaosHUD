@@ -60,7 +60,11 @@
 
 		"paintbackground"			"1"
 		"bgcolor_override"			"88 133 162 255"
-	
+
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 	"RedBG"
 	{
@@ -74,7 +78,11 @@
 
 		"paintbackground"			"1"
 		"bgcolor_override"			"184 56 59 255"
-	
+		
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 	"ScoreboardBG"
 	{
@@ -90,6 +98,10 @@
 		"paintbackground"			"1"
 		"bgcolor_override"			"0 0 0 200"
 	
+		if_mvm
+		{
+			"visible"				"0"
+		}
 	}
 	
 	"BlueScoreBG"
@@ -149,8 +161,8 @@
 		"font"						"Bebas24"
 		"fgcolor"					"White"
 		"labelText"					"%blueteamscore%"
-		"textAlignment"				"west"
-		"xpos"						"-235"
+		"textAlignment"				"east"
+		"xpos"						"-199"
 		"ypos"						"-2" 
 		"zpos"						"5"
 		"wide"						"50"
@@ -259,7 +271,7 @@
 		"fgcolor"					"White"
 		"labelText"					"%redteamscore%"
 		"textAlignment"				"west"
-		"xpos"						"-200"
+		"xpos"						"-199"
 		"ypos"						"-2"
 		"zpos"						"5"
 		"wide"						"50"
@@ -524,6 +536,13 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"fgcolor"					"White"
+
+		if_mvm
+		{
+			"visible"				"1"
+			"ypos"					"65"
+			"xpos"					"140"
+		}
 	}
 	
 	"StatsSeparator"
@@ -567,7 +586,39 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fgcolor"					"White"
+		"fgcolor"					"195 195 50 255"
+
+		if_mvm
+		{
+			"visible"				"1"
+			"ypos"					"65"
+			"xpos"					"-140"
+		}
+	}
+	"MapNameShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"MapNameShadow"
+		"font"						"Product10"
+		"labelText"					"%mapname%"
+		"textAlignment"				"east"
+ 		"xpos"						"-175"
+		"ypos"						"101"
+		"zpos"						"3"
+		"wide"						"f0"
+		"tall"						"10"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"fgcolor"					"Black"
+
+		if_mvm
+		{
+			"visible"				"1"
+			"ypos"					"66"
+			"xpos"					"-140"
+		}
 	}
 
 	"LocalPlayerStatsPanel"
@@ -590,13 +641,9 @@
 		
 		if_mvm
 		{
-			"xpos"					"c-232"
-			"ypos"					"r210"
-			"zpos"					"20"
-			"wide"					"530"
-			"tall"					"34"
-			
-			"pin_to_sibling"		""
+			"xpos"			"0"
+			"ypos"			"116"
+			"visible"		"1"
 		}
 		"Killss"
 		{
@@ -621,7 +668,7 @@
 
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"KillsShadow"
@@ -647,7 +694,7 @@
 
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -696,7 +743,7 @@
 
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"DeathsShadow"
@@ -722,7 +769,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -747,7 +794,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Damagess"
@@ -774,7 +821,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -801,7 +848,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Assistss"
@@ -828,7 +875,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -855,7 +902,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Headshotss"
@@ -882,7 +929,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -909,7 +956,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Backstabss"
@@ -936,7 +983,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -963,7 +1010,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Capturess"
@@ -990,7 +1037,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -1017,7 +1064,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Defensess"
@@ -1044,7 +1091,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -1071,7 +1118,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}	
 		"Destructionss"
@@ -1098,7 +1145,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -1125,7 +1172,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Teleportss"
@@ -1150,7 +1197,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -1177,7 +1224,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Invulnss"
@@ -1202,7 +1249,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -1229,7 +1276,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Healingss"
@@ -1254,7 +1301,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -1281,7 +1328,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Dominationss"
@@ -1308,7 +1355,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -1335,7 +1382,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		"Revengess"
@@ -1360,7 +1407,7 @@
 			
 			if_mvm
 			{
-				"visible"			"0"
+				"visible"			"1"
 			}
 		}
 		
@@ -1380,7 +1427,7 @@
 		/////////////////////////////////////////////////////////////////
 		///////////////////////////////MVM///////////////////////////////
 		/////////////////////////////////////////////////////////////////
-		
+
 		"KillsLabelMVM"
 		{
 			"ControlName"			"CExLabel"
@@ -1938,12 +1985,50 @@
 		}
 	}
 
+	"MvMStatsBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MvMStatsBG"
+		"xpos"				"136"
+		"ypos"				"367"
+		"wide"				"582"
+		"tall"				"50"
+		"zpos"				"1"
+		"visible"			"0"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 100"
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}
+	"MvMMapLine"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MvMMapLine"
+		"xpos"				"137"
+		"ypos"				"433"
+		"wide"				"35"
+		"tall"				"1"
+		"visible"			"0"
+		"enabled"			"1"
+
+		"paintbackground"	"1"
+		"bgcolor_override"	"White"
+
+		if_mvm
+		{
+			"visible"		"1"
+		}
+	}
+
 	"MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
 		"xpos"				"c-300"
-		"ypos"				"-124"
+		"ypos"				"-35"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"

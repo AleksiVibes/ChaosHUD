@@ -2,68 +2,59 @@
 {
 	"ControlPointProgressBar"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ControlPointProgressBar"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"20"
-		"wide"										"100"
-		"wide_minmode"								"65"
-		"tall"										"65"
-		"tall_minmode"								"42"
-		"visible"									"0"
-		"enabled"									"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ControlPointProgressBar"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"100"
+		"tall"		"65"
+		"visible"	"1"
+		"enabled"	"0"
 	}
-
-
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
 
 	"ProgressBar"
 	{
-		"ControlName"								"CircularProgressBar"
-		"fieldName"									"ProgressBar"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"CircularProgressBar"
+		"fieldName"	"ProgressBar"
+		"xpos"		"9999"
 	}
+
 	"Teardrop"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"Teardrop"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"	"Teardrop"
+		"xpos"		"9999"
 	}
+	
 	"TeardropSide"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"TeardropSide"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"	"TeardropSide"
+		"xpos"		"9999"
 	}
+
 	"ProgressText"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"ProgressText"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"ProgressText"
+		"xpos"			"9999"
 	}
+
 	"Blocked"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"Blocked"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"ControlName"	"CIconPanel"
+		"fieldName"	"Blocked"
+		"xpos"		"40"
+		"ypos"		"45"
+		"zpos"		"50"
+		"wide"		"20"
+		"tall"		"20"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"icon"		"cappoint_progressbar_blocked"
+		"iconColor"	"255 255 255 255"
+		"fgcolor"	"255 255 255 255"
 	}
 }

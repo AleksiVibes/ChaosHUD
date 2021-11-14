@@ -54,7 +54,7 @@
 			
 			"attriblabel"
 			{
-				"font"								"Light 10"
+				"font"								"Product10"
 				"visible"							"0"
 			}
 			
@@ -93,6 +93,7 @@
 			"zpos"									"1"
 			"wide"									"14"
 			"tall"									"14"
+			"visible"								"0"
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"labelText"								"~"
@@ -100,12 +101,9 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"default"								"0"
-			"sound_depressed"						"UI/buttonclick.wav"
-
+			"default"								"1"
 			"paintbackground"						"0"
-			"paintbackgroundtype"					"0"
-			"paintborder"							"0"
+			"sound_depressed"						"UI/buttonclick.wav"
 
 			"fgcolor_override"						"White"
 			"fgcolor_override"						"200 200 200 255"
@@ -564,6 +562,27 @@
 			"depressedFgColor_override" 			"WhiteSolid"
 		}		
 	}
+	"imgonnahaveananeyrusm"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldname"								"imgonnahaveananeyrusm"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"14"
+			"tall"									"14"
+			"visible"								"0"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+
+			"paintbackground"						"1"
+			"bgcolor_override"						"22 22 22 255"
+		}
 
 	"CaratLabel"
 	{

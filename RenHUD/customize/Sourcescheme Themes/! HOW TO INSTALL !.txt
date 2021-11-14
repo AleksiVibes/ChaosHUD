@@ -1,0 +1,5 @@
+! HOW TO INSTALL CUSTOM SOURCESCHEME !
+
+Open one of the folders
+Drag the 'resource' folder to the main 'RENHud' folder
+(If game already open) restart your game

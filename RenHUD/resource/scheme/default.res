@@ -2288,7 +2288,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"Product Sans"
 				"tall"										"7"
 				"weight"									"500"
 				"additive"									"0"
@@ -2300,7 +2300,7 @@
 		{
 			"1"
 			{
-				"name"										"Verdana"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"antialias" 								"1"
 				"weight"									"500"
@@ -2311,7 +2311,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"Product Sans"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2323,8 +2323,8 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
-				"tall"										"11"
+				"name"										"Product Sans"
+				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -2335,7 +2335,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"Product Sans"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -3942,9 +3942,9 @@
 			"backgroundtype"		"0"
 			"color"					"45 45 45 255"
 			
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
+			"image"					"replay/thumbnails/white"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
@@ -5617,6 +5617,18 @@
 			"draw_corner_width"								"8"
 			"draw_corner_height" 							"8"
 		}
+		"PartyChatBG"
+		{
+			"bordertype"									"scalable_image"
+			"backgroundtype"								"2"
+
+			"image"											"../vgui/replay/thumbnails/partychatbg.vtf"
+			"src_corner_height"								"16"
+			"src_corner_width"								"16"
+			"draw_corner_width"								"8"
+			"draw_corner_height" 							"8"
+		}
+
 
 		"QuickplayBorder"
 		{

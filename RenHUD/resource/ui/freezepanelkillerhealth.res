@@ -20,8 +20,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValueKiller"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5-1"
+		"xpos"										"-5"
+		"ypos"										"0"
 		"zpos"										"20"
 		"wide"										"f0"
 		"tall"										"f0"
@@ -30,7 +30,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0refont24"
+		"font"										"Product16"
 		"fgcolor"  									"Health Numbers"
 	}
 
@@ -48,7 +48,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0refont24"
+		"font"										"Product16"
 		"fgcolor"  									"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueKiller"
