@@ -420,7 +420,7 @@
 			"ypos"					"20"
 			"zpos"					"500"
 			"wide"					"150"
-			"tall"					"f15"
+			"tall"					"f20"
 			"visible"				"1"
 			"proportionaltoparent"	"1"
 			
@@ -1527,10 +1527,10 @@
 
 	////////////////////////////////////////////////////
 	
-	"RenHUD"
+	"ChaosHUD"
 	{
 		"ControlName"				"CExImageButton"
-		"fieldName"					"RenHUD"
+		"fieldName"					"ChaosHUD"
 		"xpos"						"4"
 		"ypos"						"35"
 		"wide"						"115"
@@ -1551,7 +1551,7 @@
 		"brighttext"				"0"
 		"default"					"1"
 		"command"					""
-		"labeltext"					"RENHUD"
+		"labeltext"					"CHAOSHUD"
 		"roundedcorners"			"0"
 		"proportionaltoparent"		"1"
 		"border"					"noborder"
