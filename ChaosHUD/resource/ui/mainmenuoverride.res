@@ -1531,7 +1531,7 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"ChaosHUD"
-		"xpos"						"4"
+		"xpos"						"40"
 		"ypos"						"35"
 		"wide"						"115"
 		"tall"						"30"
